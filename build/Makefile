@@ -168,30 +168,6 @@ SDL_uclibc/fast:
 	$(MAKE) $(MAKESILENT) -f EXCLUDE_FROM_FALL/CMakeFiles/SDL_uclibc.dir/build.make EXCLUDE_FROM_FALL/CMakeFiles/SDL_uclibc.dir/build
 .PHONY : SDL_uclibc/fast
 
-src/lib/addInventory.o: src/lib/addInventory.cpp.o
-.PHONY : src/lib/addInventory.o
-
-# target to build an object file
-src/lib/addInventory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/lib/addInventory.cpp.o
-.PHONY : src/lib/addInventory.cpp.o
-
-src/lib/addInventory.i: src/lib/addInventory.cpp.i
-.PHONY : src/lib/addInventory.i
-
-# target to preprocess a source file
-src/lib/addInventory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/lib/addInventory.cpp.i
-.PHONY : src/lib/addInventory.cpp.i
-
-src/lib/addInventory.s: src/lib/addInventory.cpp.s
-.PHONY : src/lib/addInventory.s
-
-# target to generate assembly for a file
-src/lib/addInventory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/lib/addInventory.cpp.s
-.PHONY : src/lib/addInventory.cpp.s
-
 src/lib/window.o: src/lib/window.cpp.o
 .PHONY : src/lib/window.o
 
@@ -252,9 +228,6 @@ help:
 	@echo "... SDL3_test"
 	@echo "... SDL_uclibc"
 	@echo "... main"
-	@echo "... src/lib/addInventory.o"
-	@echo "... src/lib/addInventory.i"
-	@echo "... src/lib/addInventory.s"
 	@echo "... src/lib/window.o"
 	@echo "... src/lib/window.i"
 	@echo "... src/lib/window.s"
