@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/hibiki/Documents/GitHub/Inventory/test/cmake_install.cmake",
+		"/Users/hibiki/Documents/GitHub/Inventory/test/EXCLUDE_FROM_FALL/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
