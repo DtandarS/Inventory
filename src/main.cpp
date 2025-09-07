@@ -4,7 +4,6 @@
 #include "lib/headers.h"
 
 bool boo = true;
-int foo = 1;
 int n, m, y;
 int main(){
 
@@ -16,6 +15,7 @@ int main(){
       if (n == 100){
 
         init();
+        loadMedia();
 
 
       }

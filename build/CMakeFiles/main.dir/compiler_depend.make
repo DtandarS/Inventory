@@ -789,6 +789,7 @@ CMakeFiles/main.dir/src/lib/window.cpp.o: /Users/hibiki/Documents/GitHub/Invento
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/headers.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/resources/cv-image-bmp.bmp \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -1694,6 +1695,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/hibiki/Documents/GitHub/Inventory/src
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_clipboard.h:
 
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_camera.h:
+
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_bits.h:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_begin_code.h:
@@ -1701,6 +1704,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/hibiki/Documents/GitHub/Inventory/src
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_asyncio.h:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_assert.h:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/resources/cv-image-bmp.bmp:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h:
 
@@ -2097,8 +2102,6 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/hibiki/Documents/GitHub/Inventory/src
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_mcontext.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h:
-
-/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_camera.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator.h:
 

@@ -2,6 +2,7 @@
 #include <string>
 #include "vendored/SDL/include/SDL3/SDL.h"
 #include "vendored/SDL/include/SDL3/SDL_main.h"
+#include "vendored/SDL/include/SDL3/SDL_video.h"
 #include "headers.h"
 using namespace std;
 
@@ -29,26 +30,30 @@ bool init(){
   if ( SDL_Init( SDL_INIT_VIDEO ) == false ){
 
     SDL_Log( "SDL could not initialize! SDL error: %s\n", SDL_GetError() );
-    printf(" Error 001: Could not initialize SDL");
+    printf(" Error 001: Could not initialize SDL \n");
     success = false;
+    return false;
 
   };
 
-  // Create the window with specified name and dimensions. //
-  window = SDL_CreateWindow( "Fukc uuuuu", ScreenWidth, ScreenHeight, 0);
 
   // Create the window with specified name and dimensions. //
+  window = SDL_CreateWindow( "Fukc uuuuu", ScreenWidth, ScreenHeight, 0 );
+
+  // We check whether the window is created succesfully //
   if ( window == nullptr ) {
 
     SDL_Log( "SDL could not create window! SDL error: %s\n", SDL_GetError() );
-    printf(" Error 002: Could not create SDL window");
+    printf(" Error 002: Could not create SDL window \n");
     success = false;
+    return false;
 
   };
 
+
   ScreenSurface = SDL_GetWindowSurface( window );
 
-  printf("The window is succesfully initialized\n\n");
+  printf("The window is succesfully initialized\n");
 
   return success;
 
@@ -57,12 +62,29 @@ bool init(){
 
 bool loadMedia(){
 
-  return false;
+  bool success { true };
+
+  /* We set the string to the desired bitmap file we want to load then we initialize surface loading */
+  string imagePath { "resources/cv-image-bmp.bmp" };
+  helloWorld = SDL_LoadBMP( imagePath.c_str() );
+
+  if (  helloWorld == nullptr ){
+
+    SDL_Log( "Unable to load image %s! SDL Error: %s\n", imagePath.c_str(), SDL_GetError() );
+    printf( "Error 003: SDL could not load image to the screen \n" );
+    success = false;
+    return false;
+
+  }
+
+  printf("SDL Was able to load image to the screen\n");
+  return success;
 
 }
 
 
 void close(){
+
 
 
 }

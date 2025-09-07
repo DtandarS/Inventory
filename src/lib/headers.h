@@ -3,4 +3,5 @@
 void addInventory(int x);
 
 bool init();
+bool loadMedia();
 
