@@ -3,6 +3,7 @@
 #include "vendored/SDL/include/SDL3/SDL.h"
 #include "vendored/SDL/include/SDL3/SDL_main.h"
 #include "vendored/SDL/include/SDL3/SDL_video.h"
+#include "resources/cv-image-bmp.bmp"
 #include "headers.h"
 using namespace std;
 

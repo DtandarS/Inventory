@@ -789,7 +789,6 @@ CMakeFiles/main.dir/src/lib/window.cpp.o: /Users/hibiki/Documents/GitHub/Invento
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/headers.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/resources/cv-image-bmp.bmp \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -855,7 +854,9 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/hibiki/Documents/GitHub/Inventory/src
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__xlocale.h \
@@ -1636,7 +1637,66 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/hibiki/Documents/GitHub/Inventory/src
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/headers.h
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/headers.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_assert.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_asyncio.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_atomic.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_audio.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_bits.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_blendmode.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_camera.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_clipboard.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_close_code.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_cpuinfo.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_dialog.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_endian.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_error.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_events.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_filesystem.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_gamepad.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_gpu.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_guid.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_haptic.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_hidapi.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_hints.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_init.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_iostream.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_joystick.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_keyboard.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_keycode.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_loadso.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_locale.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_log.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_messagebox.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_metal.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_misc.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_mouse.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_mutex.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_oldnames.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_pen.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_pixels.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_platform.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_power.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_process.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_properties.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_rect.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_render.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_scancode.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_sensor.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_storage.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_surface.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_system.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_thread.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_time.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_timer.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_touch.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_tray.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_version.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_video.h
 
 
 /Users/hibiki/Documents/GitHub/Inventory/src/main.cpp:
@@ -1695,8 +1755,6 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/hibiki/Documents/GitHub/Inventory/src
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_clipboard.h:
 
-/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_camera.h:
-
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_bits.h:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_begin_code.h:
@@ -1704,8 +1762,6 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/hibiki/Documents/GitHub/Inventory/src
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_asyncio.h:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_assert.h:
-
-/Users/hibiki/Documents/GitHub/Inventory/src/lib/resources/cv-image-bmp.bmp:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h:
 
@@ -2102,6 +2158,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/hibiki/Documents/GitHub/Inventory/src
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_mcontext.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_camera.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator.h:
 

@@ -846,4 +846,5 @@ CMakeFiles/main.dir/src/lib/window.cpp.o: \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_version.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_oldnames.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_main.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/resources/cv-image-bmp.bmp \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/headers.h

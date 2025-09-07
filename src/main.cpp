@@ -2,31 +2,39 @@
 #include <stdio.h>
 #include <math.h>
 #include "lib/headers.h"
+#include "lib/vendored/SDL/include/SDL3/SDL.h"
 
 bool boo = true;
 int n, m, y;
-int main(){
-
-  while ( boo == true ){
-
-      printf("your word is my command : ");
-      scanf("%i", &n);
-
-      if (n == 100){
-
-        init();
-        loadMedia();
 
 
-      }
+int main( int argc, char* args){
 
-      if (n == 200){
+  /* We initialize a final exit code */
+  int exitCode{ 0 };
 
-        boo = false;
-        return 0;
+  while ( exitCode == 0 ){
 
-      };
+    if ( init() == false ){
 
-  };
+      SDL_Log(" Unable to initialize the program \n ");
+      exitCode = 1; 
+      return 0;
+
+    };
+
+    if ( loadMedia() == false ){
+
+      SDL_Log(" Unable to load media on the the screen \n ");
+      exitCode = 2;
+
+    };
+
+    bool quit{ false };
+    SDL_Event e;
+    SDL_zero( e );
+
+  }
 
 }
+
