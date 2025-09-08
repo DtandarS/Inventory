@@ -1,3 +1,6 @@
+/* This program is build using and following lazy foo's production tutorial. All appriciation goes to him and his code. */
+/* oh yeah. I use vim btw */
+
 #include <iostream>
 #include <stdio.h>
 #include <math.h>
