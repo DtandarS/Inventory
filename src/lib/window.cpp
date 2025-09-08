@@ -86,7 +86,19 @@ bool loadMedia(){
 
 void close(){
 
+  /* We clean up the surface of the screen */
+  SDL_DestroySurface( helloWorld );
+  helloWorld = nullptr;
 
+
+  /* Destroy the window */
+  SDL_DestroySurface( window );
+  window = nullptr;
+  ScreenSurface = nullptr;
+
+
+  /* I think "Quit" should be self explanatory enough right??? */
+  SDL_Quit();
 
 }
 
