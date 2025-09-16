@@ -168,53 +168,53 @@ SDL_uclibc/fast:
 	$(MAKE) $(MAKESILENT) -f EXCLUDE_FROM_FALL/CMakeFiles/SDL_uclibc.dir/build.make EXCLUDE_FROM_FALL/CMakeFiles/SDL_uclibc.dir/build
 .PHONY : SDL_uclibc/fast
 
-lib/addInventory.o: lib/addInventory.cpp.o
-.PHONY : lib/addInventory.o
+src/lib/window.o: src/lib/window.cpp.o
+.PHONY : src/lib/window.o
 
 # target to build an object file
-lib/addInventory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/addInventory.cpp.o
-.PHONY : lib/addInventory.cpp.o
+src/lib/window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/lib/window.cpp.o
+.PHONY : src/lib/window.cpp.o
 
-lib/addInventory.i: lib/addInventory.cpp.i
-.PHONY : lib/addInventory.i
+src/lib/window.i: src/lib/window.cpp.i
+.PHONY : src/lib/window.i
 
 # target to preprocess a source file
-lib/addInventory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/addInventory.cpp.i
-.PHONY : lib/addInventory.cpp.i
+src/lib/window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/lib/window.cpp.i
+.PHONY : src/lib/window.cpp.i
 
-lib/addInventory.s: lib/addInventory.cpp.s
-.PHONY : lib/addInventory.s
+src/lib/window.s: src/lib/window.cpp.s
+.PHONY : src/lib/window.s
 
 # target to generate assembly for a file
-lib/addInventory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/addInventory.cpp.s
-.PHONY : lib/addInventory.cpp.s
+src/lib/window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/lib/window.cpp.s
+.PHONY : src/lib/window.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -228,12 +228,12 @@ help:
 	@echo "... SDL3_test"
 	@echo "... SDL_uclibc"
 	@echo "... main"
-	@echo "... lib/addInventory.o"
-	@echo "... lib/addInventory.i"
-	@echo "... lib/addInventory.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/lib/window.o"
+	@echo "... src/lib/window.i"
+	@echo "... src/lib/window.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

@@ -2,15 +2,13 @@
 #include <string>
 #include "vendored/SDL/include/SDL3/SDL.h"
 #include "vendored/SDL/include/SDL3/SDL_main.h"
-#include "vendored/SDL/include/SDL3/SDL_video.h"
-#include "resources/cv-image-bmp.bmp"
 #include "headers.h"
 using namespace std;
 
 
 
-constexpr int ScreenWidth { 300 } ;
-constexpr int ScreenHeight { 300 } ;
+constexpr int ScreenWidth { 1920 } ;
+constexpr int ScreenHeight { 1080 } ;
 
 
 
@@ -63,10 +61,11 @@ bool init(){
 
 bool loadMedia(){
 
+  /* This will be used a way to confirm loaded file */
   bool success { true };
 
   /* We set the string to the desired bitmap file we want to load then we initialize surface loading */
-  string imagePath { "resources/cv-image-bmp.bmp" };
+  const string imagePath { "resources/cv-image.bmp" };
   helloWorld = SDL_LoadBMP( imagePath.c_str() );
 
   if (  helloWorld == nullptr ){
@@ -92,7 +91,7 @@ void close(){
 
 
   /* Destroy the window */
-  SDL_DestroySurface( window );
+  SDL_DestroyWindow( window );
   window = nullptr;
   ScreenSurface = nullptr;
 

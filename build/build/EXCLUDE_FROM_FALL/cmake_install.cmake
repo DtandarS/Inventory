@@ -1,4 +1,4 @@
-# Install script for directory: /Users/hibiki/Documents/GitHub/Inventory/lib/vendored/SDL
+# Install script for directory: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

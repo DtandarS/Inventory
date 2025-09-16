@@ -11,7 +11,7 @@ bool boo = true;
 int n, m, y;
 
 
-int main( int argc, char* args){
+int main( int argc, char* args[]){
 
   /* We initialize a final exit code */
   int exitCode{ 0 };
@@ -30,6 +30,7 @@ int main( int argc, char* args){
 
       SDL_Log(" Unable to load media on the the screen \n ");
       exitCode = 2;
+      return 0;
 
     };
 
