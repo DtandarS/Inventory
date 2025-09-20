@@ -73,144 +73,144 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/codegen:
 .PHONY : EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/codegen
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/flags.make
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_assert.c
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_assert.c
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_assert.c
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_assert.c
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_assert.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_assert.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.i
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_assert.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_assert.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.s
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/flags.make
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_common.c
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_common.c
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_common.c
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_common.c
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_common.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_common.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.i
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_common.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_common.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.s
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/flags.make
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_compare.c
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_compare.c
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_compare.c
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_compare.c
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_compare.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_compare.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.i
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_compare.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_compare.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.s
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/flags.make
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_crc32.c
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_crc32.c
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_crc32.c
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_crc32.c
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_crc32.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_crc32.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.i
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_crc32.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_crc32.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.s
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/flags.make
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_font.c
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_font.c
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_font.c
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_font.c
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_font.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_font.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.i
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_font.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_font.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.s
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/flags.make
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_fuzzer.c
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_fuzzer.c
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_fuzzer.c
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_fuzzer.c
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_fuzzer.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_fuzzer.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.i
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_fuzzer.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_fuzzer.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.s
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/flags.make
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_harness.c
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_harness.c
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_harness.c
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_harness.c
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_harness.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_harness.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.i
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_harness.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_harness.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.s
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/flags.make
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_log.c
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_log.c
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_log.c
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_log.c
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_log.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_log.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.i
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_log.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_log.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.s
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/flags.make
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_md5.c
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_md5.c
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_md5.c
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_md5.c
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_md5.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_md5.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.i
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_md5.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_md5.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.s
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/flags.make
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_memory.c
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_memory.c
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_memory.c
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o -MF CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o.d -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_memory.c
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_memory.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_memory.c > CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.i
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/test/SDL_test_memory.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/test/SDL_test_memory.c -o CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.s
 
 # Object files for target SDL3_test
 SDL3_test_OBJECTS = \
@@ -253,6 +253,6 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/clean:
 .PHONY : EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/clean
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/depend:
-	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hibiki/Documents/GitHub/Inventory /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL /Users/hibiki/Documents/GitHub/Inventory/build /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hibiki/Documents/GitHub/Inventory /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL /Users/hibiki/Documents/GitHub/Inventory/build /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/depend
 

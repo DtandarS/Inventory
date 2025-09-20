@@ -50,7 +50,7 @@ unset(_cmake_expected_targets)
 add_library(SDL3::Headers INTERFACE IMPORTED)
 
 set_target_properties(SDL3::Headers PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL/include-revision;/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL/include-revision;/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include"
 )
 
 # This file does not depend on other imported targets which have

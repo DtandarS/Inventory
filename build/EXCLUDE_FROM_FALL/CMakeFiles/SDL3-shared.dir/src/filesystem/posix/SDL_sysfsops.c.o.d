@@ -1,17 +1,17 @@
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o: \
   /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c \
   /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/SDL_internal.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/SDL_internal.h \
   /Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL/include-config-/build_config/SDL_build_config.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_platform_defines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/dynapi/SDL_dynapi.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/dynapi/SDL_dynapi_overrides.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/appleapiopts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
@@ -173,74 +173,74 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_stdinc.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_close_code.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_assert.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_asyncio.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_atomic.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_audio.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_endian.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_error.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_mutex.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_thread.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_properties.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_iostream.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_bits.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_blendmode.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_camera.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_pixels.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_surface.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_rect.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_clipboard.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_cpuinfo.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_dialog.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_video.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_events.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_gamepad.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_guid.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_joystick.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_power.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_sensor.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_keyboard.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_keycode.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_scancode.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_mouse.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_pen.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_touch.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_filesystem.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_gpu.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_haptic.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_hidapi.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_hints.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_init.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_loadso.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_locale.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_log.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_messagebox.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_metal.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_misc.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_platform.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_process.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_render.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_storage.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_system.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_time.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_timer.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_tray.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_version.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_oldnames.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_intrin.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_begin_code.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_close_code.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_assert.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_asyncio.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_atomic.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_audio.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_endian.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_error.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_mutex.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_thread.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_properties.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_iostream.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_bits.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_blendmode.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_camera.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_pixels.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_surface.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_rect.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_clipboard.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_cpuinfo.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_dialog.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_video.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_events.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_gamepad.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_guid.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_joystick.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_power.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_sensor.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_keyboard.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_keycode.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_scancode.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_mouse.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_pen.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_touch.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_filesystem.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_gpu.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_haptic.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_hidapi.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_hints.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_init.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_loadso.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_locale.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_log.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_messagebox.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_metal.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_misc.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_platform.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_process.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_render.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_storage.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_system.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_time.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_timer.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_tray.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_version.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_oldnames.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_intrin.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_neon.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_bf16.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_vector_types.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_main.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/SDL_utils_c.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/SDL_hashtable.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/filesystem/posix/SDL_sysfsops.c \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/filesystem/posix/../SDL_sysfilesystem.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_main.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/SDL_utils_c.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/SDL_hashtable.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/filesystem/posix/SDL_sysfsops.c \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/filesystem/posix/../SDL_sysfilesystem.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/dirent.h \

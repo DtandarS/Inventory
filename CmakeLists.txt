@@ -4,7 +4,7 @@ project(Inventorio)
 
 add_subdirectory(
 
-src/lib/vendored/SDL/ EXCLUDE_FROM_FALL
+src/lib/SDL/ EXCLUDE_FROM_FALL
 
 )
 

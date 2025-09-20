@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
-#include "vendored/SDL/include/SDL3/SDL.h"
-#include "vendored/SDL/include/SDL3/SDL_main.h"
+#include "SDL/include/SDL3/SDL.h"
+#include "SDL/include/SDL3/SDL_main.h"
+#include "SDL/include/SDL3/SDL_image.h"
 #include "headers.h"
 using namespace std;
 
@@ -72,7 +73,7 @@ bool loadMedia(){
   bool success { true };
 
   /* We set the string to the desired bitmap file we want to load then we initialize surface loading */
-  const string imagePath { "Inventory/src/lib/resources/haikyuu1.bmp" };
+  const string imagePath { "/src/lib/resources/haikyuu1.bmp" };
   helloWorld = SDL_LoadBMP( imagePath.c_str() );
 
   if (  helloWorld == nullptr ){
