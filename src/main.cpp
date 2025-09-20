@@ -16,29 +16,49 @@ int main( int argc, char* args[]){
   /* We initialize a final exit code */
   int exitCode{ 0 };
 
-  while ( exitCode == 0 ){
 
-    if ( init() == false ){
+  if ( init() == false ){
 
-      SDL_Log(" Unable to initialize the program \n ");
-      exitCode = 1; 
-      return 0;
+    SDL_Log(" Unable to initialize the program \n ");
+    exitCode = 1; 
+    return 0;
 
-    };
+  };
 
-    if ( loadMedia() == false ){
+  if ( loadMedia() == false ){
 
-      SDL_Log(" Unable to load media on the the screen \n ");
-      exitCode = 2;
-      return 0;
+    SDL_Log(" Unable to load media on the the screen \n ");
+    exitCode = 2;
+    return 0;
 
-    };
+  };
 
-    bool quit{ false };
-    SDL_Event e;
-    SDL_zero( e );
+  bool quit{ false };
+  SDL_Event e;
+  SDL_zero( e );
+
+  while ( quit == false ){
+
+    while ( SDL_PollEvent( &e ) == true ){ 
+
+      if ( e.type == SDL_EVENT_QUIT ){
+
+        quit = true;
+
+      } 
+
+    }
+
+    fillSurface();
+    renderImage();
+    updateSurface();
 
   }
 
+
+close();
+return exitCode;
+
 }
+
 

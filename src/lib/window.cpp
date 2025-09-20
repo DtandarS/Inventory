@@ -7,9 +7,16 @@ using namespace std;
 
 
 
-constexpr int ScreenWidth { 1920 } ;
-constexpr int ScreenHeight { 1080 } ;
+constexpr int ScreenWidth { 400 } ;
+constexpr int ScreenHeight { 600 } ;
 
+
+/*  */
+bool init();
+
+bool loadMedia();
+
+void close();
 
 
 /* global variables */
@@ -65,7 +72,7 @@ bool loadMedia(){
   bool success { true };
 
   /* We set the string to the desired bitmap file we want to load then we initialize surface loading */
-  const string imagePath { "resources/cv-image.bmp" };
+  const string imagePath { "Inventory/src/lib/resources/haikyuu1.bmp" };
   helloWorld = SDL_LoadBMP( imagePath.c_str() );
 
   if (  helloWorld == nullptr ){
@@ -100,6 +107,28 @@ void close(){
   SDL_Quit();
 
 }
+
+void fillSurface(){
+
+  //Fill the surface white
+  SDL_FillSurfaceRect( ScreenSurface, nullptr, SDL_MapSurfaceRGB( ScreenSurface, 0xFF, 0xFF, 0xFF ) );
+
+}
+
+void renderImage(){
+
+  //Render image on screen
+  SDL_BlitSurface( helloWorld, nullptr, ScreenSurface, nullptr );
+
+}
+
+void updateSurface(){
+
+  //Update the surface
+  SDL_UpdateWindowSurface( window );
+
+}
+
 
 
 
