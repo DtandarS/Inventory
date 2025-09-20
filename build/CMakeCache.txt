@@ -347,7 +347,7 @@ SDL3_BINARY_DIR:STATIC=/Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FR
 SDL3_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-SDL3_SOURCE_DIR:STATIC=/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL
+SDL3_SOURCE_DIR:STATIC=/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL
 
 //Support the ALSA audio API
 SDL_ALSA:BOOL=OFF

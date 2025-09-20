@@ -112,7 +112,7 @@ main: CMakeFiles/main.dir/src/main.cpp.o
 main: CMakeFiles/main.dir/src/lib/window.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: EXCLUDE_FROM_FALL/libSDL3.0.dylib
-main: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi.sym
+main: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/dynapi/SDL_dynapi.sym
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)

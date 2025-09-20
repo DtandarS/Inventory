@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL/include-revision -I/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include
+C_INCLUDES = -I/Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL/include-revision -I/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include
 
 C_FLAGSarm64 =  -arch arm64 -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wdocumentation -Wdocumentation-unknown-command -fcomment-block-commands=threadsafety -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fcolor-diagnostics
 

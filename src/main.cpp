@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <math.h>
 #include "lib/headers.h"
-#include "lib/vendored/SDL/include/SDL3/SDL.h"
+#include "lib/SDL/include/SDL3/SDL.h"
 
 bool boo = true;
 int n, m, y;

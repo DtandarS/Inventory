@@ -5202,7 +5202,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.o: EXCLUDE_FRO
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/audio/coreaudio/SDL_coreaudio.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/audio/coreaudio/SDL_coreaudio.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/audio/coreaudio/SDL_coreaudio.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/audio/coreaudio/SDL_coreaudio.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AUAudioUnit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AUAudioUnitImplementation.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AUComponent.h \
@@ -6096,6 +6096,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/audio/coreaudio/SDL_coreaudio.m
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/thread/pthread/SDL_systhread_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/audio/SDL_sysaudio.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/audio/coreaudio/SDL_coreaudio.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/audio/coreaudio/SDL_coreaudio.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h
 
@@ -6846,7 +6847,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.o: EXCLUDE_
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/camera/coremedia/SDL_camera_coremedia.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/camera/coremedia/SDL_camera_coremedia.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/camera/coremedia/SDL_camera_coremedia.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/camera/coremedia/SDL_camera_coremedia.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFAudio.framework/Headers/AVAudioApplication.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFAudio.framework/Headers/AVAudioBuffer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFAudio.framework/Headers/AVAudioChannelLayout.h \
@@ -8209,6 +8210,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/camera/coremedia/SDL_camera_cor
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/SDL_surface_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/camera/SDL_camera_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/camera/SDL_syscamera.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/camera/coremedia/SDL_camera_coremedia.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h
 
@@ -9464,7 +9466,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o: EX
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/dialog/cocoa/SDL_cocoadialog.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dialog/cocoa/SDL_cocoadialog.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/dialog/cocoa/SDL_cocoadialog.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/dialog/cocoa/SDL_cocoadialog.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitErrors.h \
@@ -10858,10 +10860,11 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/dialog/cocoa/SDL_cocoadialog.m.
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/SDL_utils_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dialog/SDL_dialog.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dialog/SDL_dialog_utils.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dialog/cocoa/SDL_cocoadialog.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi.c \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/dynapi/SDL_dynapi.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -11045,6 +11048,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o: /Users/h
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_version.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_video.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi.c \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi_procs.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi_unsupported.h
@@ -15591,7 +15595,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.o: 
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/filesystem/SDL_filesystem_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/filesystem/SDL_sysfilesystem.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/filesystem/cocoa/SDL_sysfilesystem.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/filesystem/cocoa/SDL_sysfilesystem.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFFTPStream.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFHTTPAuthentication.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFHTTPMessage.h \
@@ -16427,7 +16431,8 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/filesystem/cocoa/SDL_sysfilesys
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/SDL_utils_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/filesystem/SDL_sysfilesystem.h
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/filesystem/SDL_sysfilesystem.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/filesystem/cocoa/SDL_sysfilesystem.m
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -16934,7 +16939,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.o: EXCLUDE_FROM_F
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/gpu/SDL_gpu.c \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/gpu/SDL_sysgpu.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/gpu/metal/SDL_gpu_metal.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/gpu/metal/SDL_gpu_metal.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/gpu/metal/SDL_gpu_metal.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/gpu/metal/SDL_gpu_metal.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFFTPStream.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFHTTPAuthentication.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFHTTPMessage.h \
@@ -17930,7 +17935,8 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/gpu/metal/SDL_gpu_metal.m.o: /U
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/SDL_surface_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/SDL_sysvideo.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/gpu/SDL_sysgpu.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/gpu/metal/Metal_Blit.h
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/gpu/metal/Metal_Blit.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/gpu/metal/SDL_gpu_metal.m
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -21421,7 +21427,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_game
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.c \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/joystick/apple/SDL_mfijoystick.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/joystick/apple/SDL_mfijoystick.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/joystick/apple/SDL_mfijoystick.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/apple/SDL_mfijoystick.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSAccessibilityConstants.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSAccessibilityCustomAction.h \
@@ -22564,6 +22570,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/joystick/apple/SDL_mfijoystick.
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/joystick/usb_ids.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/joystick/usb_ids.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/joystick/apple/SDL_mfijoystick.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/joystick/apple/SDL_mfijoystick_c.h
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
@@ -29712,7 +29719,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.o: EXCLUDE_
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/locale/SDL_locale.c \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/locale/SDL_syslocale.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/locale/macos/SDL_syslocale.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/locale/macos/SDL_syslocale.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/locale/macos/SDL_syslocale.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/locale/macos/SDL_syslocale.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFFTPStream.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFHTTPAuthentication.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFHTTPMessage.h \
@@ -30547,7 +30554,8 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/locale/macos/SDL_syslocale.m.o:
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/SDL_utils_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/locale/SDL_syslocale.h
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/locale/SDL_syslocale.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/locale/macos/SDL_syslocale.m
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -31524,7 +31532,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o: EXCLUDE_FROM_
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/misc/SDL_sysurl.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/misc/SDL_url.c
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/misc/macos/SDL_sysurl.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/misc/macos/SDL_sysurl.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/misc/macos/SDL_sysurl.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/misc/macos/SDL_sysurl.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitErrors.h \
@@ -32915,7 +32923,8 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/misc/macos/SDL_sysurl.m.o: /Use
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/SDL_utils_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/misc/SDL_sysurl.h
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/misc/SDL_sysurl.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/misc/macos/SDL_sysurl.m
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -37258,7 +37267,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.o:
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/render/gpu/shaders/tri_texture.vert.msl.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/render/gpu/shaders/tri_texture.vert.spv.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/render/metal/SDL_render_metal.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/render/metal/SDL_render_metal.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/render/metal/SDL_render_metal.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/metal/SDL_render_metal.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSAccessibilityConstants.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSAccessibilityCustomAction.h \
@@ -38394,6 +38403,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/render/metal/SDL_render_metal.m
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/SDL_surface_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/render/SDL_sysrender.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/render/SDL_yuv_sw_c.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/render/metal/SDL_render_metal.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/render/metal/SDL_shaders_metal_macos.h
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
@@ -51447,7 +51457,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o: EXCLUD
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/tray/SDL_tray_utils.c \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/tray/SDL_tray_utils.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/tray/cocoa/SDL_tray.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/tray/cocoa/SDL_tray.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/tray/cocoa/SDL_tray.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/tray/cocoa/SDL_tray.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitErrors.h \
@@ -52840,7 +52850,8 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/tray/cocoa/SDL_tray.m.o: /Users
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/SDL_blit.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/SDL_surface_c.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/tray/SDL_tray_utils.h
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/tray/SDL_tray_utils.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/tray/cocoa/SDL_tray.m
 
 EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.o: EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -58352,7 +58363,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.o: EXCLUDE_FROM
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaclipboard.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaclipboard.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaclipboard.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoaclipboard.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitErrors.h \
@@ -59775,6 +59786,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaclipboard.
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/SDL_surface_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/SDL_sysvideo.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaclipboard.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaclipboard.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaevents.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoakeyboard.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamodes.h \
@@ -59788,7 +59800,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaclipboard.
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/KHR/khrplatform.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaevents.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaevents.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaevents.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoaevents.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitErrors.h \
@@ -61205,6 +61217,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaevents.m.o
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/SDL_sysvideo.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaclipboard.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaevents.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaevents.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoakeyboard.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamodes.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamouse.h \
@@ -61217,7 +61230,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaevents.m.o
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/KHR/khrplatform.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoakeyboard.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoakeyboard.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoakeyboard.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoakeyboard.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitErrors.h \
@@ -62716,6 +62729,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoakeyboard.m
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaclipboard.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaevents.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoakeyboard.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoakeyboard.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamodes.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamouse.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaopengl.h \
@@ -62727,7 +62741,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoakeyboard.m
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/KHR/khrplatform.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamessagebox.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamessagebox.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamessagebox.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoamessagebox.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitErrors.h \
@@ -64133,6 +64147,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamessagebox
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaclipboard.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaevents.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoakeyboard.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamessagebox.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamodes.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamouse.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaopengl.h \
@@ -64144,7 +64159,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamessagebox
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/KHR/khrplatform.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoametalview.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoametalview.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoametalview.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoametalview.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitErrors.h \
@@ -65603,13 +65618,14 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoametalview.
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/SDL_surface_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/SDL_sysvideo.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoametalview.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoametalview.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoawindow.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/egl.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/eglext.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/KHR/khrplatform.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamodes.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamodes.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamodes.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoamodes.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitErrors.h \
@@ -67037,6 +67053,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamodes.m.o:
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaevents.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoakeyboard.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamodes.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamodes.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamouse.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaopengl.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoapen.h \
@@ -67047,7 +67064,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamodes.m.o:
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/KHR/khrplatform.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamouse.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamouse.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamouse.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoamouse.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitErrors.h \
@@ -68456,6 +68473,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamouse.m.o:
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoakeyboard.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamodes.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamouse.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamouse.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaopengl.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoapen.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoavideo.h \
@@ -68465,7 +68483,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamouse.m.o:
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/KHR/khrplatform.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengl.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaopengl.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengl.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoaopengl.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitErrors.h \
@@ -69876,6 +69894,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengl.m.o
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamodes.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamouse.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaopengl.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaopengl.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaopengles.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoapen.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoavideo.h \
@@ -69885,7 +69904,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengl.m.o
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/KHR/khrplatform.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengles.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaopengles.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengles.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoaopengles.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitErrors.h \
@@ -71295,6 +71314,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengles.m
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamouse.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaopengl.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaopengles.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaopengles.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoapen.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoavideo.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoawindow.h \
@@ -71303,7 +71323,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengles.m
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/KHR/khrplatform.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoapen.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoapen.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoapen.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoapen.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitErrors.h \
@@ -72716,6 +72736,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoapen.m.o: /
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamouse.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaopengl.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoapen.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoapen.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoavideo.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoawindow.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/egl.h \
@@ -72723,7 +72744,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoapen.m.o: /
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/KHR/khrplatform.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoashape.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoashape.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoashape.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoashape.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitErrors.h \
@@ -74134,6 +74155,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoashape.m.o:
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaopengl.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoapen.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoashape.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoashape.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoavideo.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoawindow.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/egl.h \
@@ -74141,7 +74163,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoashape.m.o:
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/KHR/khrplatform.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavideo.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoavideo.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavideo.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoavideo.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitErrors.h \
@@ -75634,6 +75656,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavideo.m.o:
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoapen.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoashape.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoavideo.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoavideo.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoavulkan.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoawindow.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/egl.h \
@@ -75641,7 +75664,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavideo.m.o:
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/KHR/khrplatform.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavulkan.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoavulkan.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavulkan.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoavulkan.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitErrors.h \
@@ -77130,13 +77153,14 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavulkan.m.o
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoapen.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoavideo.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoavulkan.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoavulkan.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoawindow.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/egl.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/eglext.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/KHR/khrplatform.h
 
-EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoawindow.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoawindow.m \
+EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoawindow.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoawindow.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitDefines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKitErrors.h \
@@ -78555,6 +78579,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoawindow.m.o
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoapen.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoavideo.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoawindow.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoawindow.m \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/egl.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/eglext.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
@@ -81639,19 +81664,25 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/dummy/SDL_nullevents.c:
 
-/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamessagebox.h:
-
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoavideo.m:
 
-/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoashape.h:
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamessagebox.h:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoashape.m:
 
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoashape.h:
+
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoapen.m:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoapen.m:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoaopengles.m:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaopengles.h:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaopengl.m:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoamouse.m:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/IOKit.framework/Headers/graphics/IOGraphicsLib.h:
 
@@ -81661,11 +81692,13 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/IOKit.framework/Headers/graphics/IOAccelSurfaceConnect.h:
 
-/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoametalview.h:
-
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoametalview.m:
 
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoametalview.h:
+
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoamessagebox.m:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoakeyboard.m:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/events/scancodes_darwin.h:
 
@@ -81747,8 +81780,6 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/CommonPanels.framework/Headers/CMCalibrator.h:
 
-/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoakeyboard.m:
-
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaevents.m:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/Scrap.h:
@@ -81761,6 +81792,8 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaevents.h:
 
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaclipboard.m:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTAdditions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CVDisplayLink.h:
@@ -81768,8 +81801,6 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/IOKit.framework/Headers/pwr_mgt/IOPMLibDefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/IOKit.framework/Headers/pwr_mgt/IOPMKeys.h:
-
-/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/cocoa/SDL_cocoaclipboard.m:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.h:
 
@@ -81818,6 +81849,8 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/SDL_RLEaccel_c.h:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/SDL_RLEaccel.c:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/tray/cocoa/SDL_tray.m:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/timer/unix/SDL_systimer.c:
 
@@ -81985,6 +82018,8 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/power/SDL_syspower.h:
 
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/misc/macos/SDL_sysurl.m:
+
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/misc/SDL_sysurl.h:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/time/SDL_time_c.h:
@@ -82037,6 +82072,8 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/joystick/apple/SDL_mfijoystick_c.h:
 
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/joystick/apple/SDL_mfijoystick.m:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/GameController.framework/Headers/GCSyntheticDeviceKeys.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/GameController.framework/Headers/GCSwitchPositionInput.h:
@@ -82068,6 +82105,8 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtern.h:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoamodes.m:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/GameController.framework/Headers/GCExtendedGamepad.h:
 
@@ -82105,7 +82144,7 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreHaptics.framework/Headers/CHHapticEngine.h:
 
-/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/joystick/apple/SDL_mfijoystick.m:
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/apple/SDL_mfijoystick.m:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.c:
 
@@ -82201,6 +82240,8 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h:
 
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/gpu/metal/SDL_gpu_metal.m:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Metal.framework/Headers/MTLVisibleFunctionTable.h:
@@ -82283,8 +82324,6 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Metal.framework/Headers/MTLAccelerationStructure.h:
 
-/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/gpu/metal/SDL_gpu_metal.m:
-
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/gpu/SDL_sysgpu.h:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/gpu/SDL_gpu.c:
@@ -82339,7 +82378,11 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/dlfcn.h:
 
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/dynapi/SDL_dynapi.c:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/os/lock.h:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoavulkan.m:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Symbols.framework/Headers/NSSymbolEffect.h:
 
@@ -82493,7 +82536,11 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTokenFieldCell.h:
 
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/filesystem/cocoa/SDL_sysfilesystem.m:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTextViewportLayoutController.h:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoakeyboard.m:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTextTable.h:
 
@@ -82562,6 +82609,8 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSStatusBarButton.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSStatusBar.h:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoavideo.m:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSStackView.h:
 
@@ -82644,6 +82693,10 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPasteboardItem.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPanel.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPanGestureRecognizer.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPageLayout.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPageController.h:
 
@@ -82751,8 +82804,6 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSDatePickerCell.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPageLayout.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CAGradientLayer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVMovie.h:
@@ -82799,6 +82850,12 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSButton.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_suseconds_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSGlyphGenerator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSBrowserCell.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSBox.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSAttributedString.h:
@@ -82828,18 +82885,6 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSAccessibilityCustomRotor.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSATSTypesetter.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_suseconds_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSGlyphGenerator.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSBrowserCell.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/clock_priv.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectPalette.h:
-
-/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dialog/cocoa/SDL_cocoadialog.m:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/AXValueConstants.h:
 
@@ -83275,6 +83320,12 @@ EXCLUDE_FROM_FALL/include-revision/SDL3/SDL_revision.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGError.h:
 
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dialog/cocoa/SDL_cocoadialog.m:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/clock_priv.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectPalette.h:
+
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/dummy/SDL_nullevents_c.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPathComponentCell.h:
@@ -83509,6 +83560,8 @@ EXCLUDE_FROM_FALL/include-revision/SDL3/SDL_revision.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureSystemPressure.h:
 
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoawindow.m:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HITabbedView.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/cups/array.h:
@@ -83520,6 +83573,14 @@ EXCLUDE_FROM_FALL/include-revision/SDL3/SDL_revision.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureReactions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureInput.h:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/camera/coremedia/SDL_camera_coremedia.m:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/GameController.framework/Headers/GCDirectionPadElement.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AEObjects.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureFileOutput.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureDataOutputSynchronizer.h:
 
@@ -83639,6 +83700,8 @@ EXCLUDE_FROM_FALL/include-revision/SDL3/SDL_revision.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h:
 
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/metal/SDL_render_metal.m:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/ToolUtils.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVAssetPlaybackAssistant.h:
@@ -83718,14 +83781,6 @@ EXCLUDE_FROM_FALL/include-revision/SDL3/SDL_revision.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFAudio.framework/Headers/AVAudioBuffer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFAudio.framework/Headers/AVAudioApplication.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/GameController.framework/Headers/GCDirectionPadElement.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AEObjects.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureFileOutput.h:
-
-/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/camera/coremedia/SDL_camera_coremedia.m:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/camera/SDL_syscamera.h:
 
@@ -84029,6 +84084,8 @@ EXCLUDE_FROM_FALL/include-revision/SDL3/SDL_revision.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/arm/thread_state.h:
 
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoaclipboard.m:
+
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/tray/cocoa/SDL_tray.m:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/thread_act.h:
@@ -84132,6 +84189,8 @@ EXCLUDE_FROM_FALL/include-revision/SDL3/SDL_revision.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Security.framework/Headers/oidscert.h:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/SDL_hashtable.c:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/dialog/cocoa/SDL_cocoadialog.m:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Security.framework/Headers/oids.h:
 
@@ -84374,6 +84433,8 @@ EXCLUDE_FROM_FALL/include-revision/SDL3/SDL_revision.h:
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSSet.h:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoaevents.m:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSXMLDocument.h:
 
@@ -84845,6 +84906,8 @@ EXCLUDE_FROM_FALL/include-revision/SDL3/SDL_revision.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/BackupCore.h:
 
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoaopengl.m:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/GameController.framework/Headers/GCDeviceCursor.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers/SKAnalysis.h:
@@ -84992,6 +85055,8 @@ EXCLUDE_FROM_FALL/include-revision/SDL3/SDL_revision.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSProgress.h:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_render.h:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoashape.m:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_init.h:
 
@@ -85191,6 +85256,8 @@ EXCLUDE_FROM_FALL/include-revision/SDL3/SDL_revision.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSInputManager.h:
 
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoamessagebox.m:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVVideoComposition.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioBaseTypes.h:
@@ -85224,6 +85291,14 @@ EXCLUDE_FROM_FALL/include-revision/SDL3/SDL_revision.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/dispatch/group.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/DiskSpaceRecovery.h:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_types.h:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/SDL_log.c:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/audio/coreaudio/SDL_coreaudio.m:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/TranslationExtensions.h:
 
@@ -85339,8 +85414,6 @@ EXCLUDE_FROM_FALL/include-revision/SDL3/SDL_revision.h:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/audio/SDL_audiodev.c:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPanGestureRecognizer.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVAssetCache.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureSlider.h:
@@ -85430,6 +85503,8 @@ EXCLUDE_FROM_FALL/include-revision/SDL3/SDL_revision.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSScrubber.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSDockTile.h:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/camera/coremedia/SDL_camera_coremedia.m:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_process.h:
 
@@ -85654,12 +85729,6 @@ EXCLUDE_FROM_FALL/include-revision/SDL3/SDL_revision.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/SDL_internal.h:
-
-/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_types.h:
-
-/Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/SDL_log.c:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/include/SDL3/SDL_timer.h:
 
@@ -86045,6 +86114,8 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h:
 
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/gpu/metal/SDL_gpu_metal.m:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h:
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/dynapi/SDL_dynapi.h:
@@ -86129,6 +86200,8 @@ EXCLUDE_FROM_FALL/include-config-/build_config/SDL_build_config.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h:
 
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/locale/macos/SDL_syslocale.m:
+
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/vendored/SDL/src/SDL_hashtable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVAudioPlayerNode.h:
@@ -86211,8 +86284,6 @@ EXCLUDE_FROM_FALL/include-config-/build_config/SDL_build_config.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/runetype.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/ndr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSPortNameServer.h:
@@ -86276,6 +86347,8 @@ EXCLUDE_FROM_FALL/include-config-/build_config/SDL_build_config.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/Events.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDate.h:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoametalview.m:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSButtonTouchBarItem.h:
 
@@ -86450,6 +86523,8 @@ EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/netinet/in_systm.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Block.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/runetype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureDevice.h:
 

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
-#include "vendored/SDL/include/SDL3/SDL.h"
-#include "vendored/SDL/include/SDL3/SDL_main.h"
+#include "SDL/include/SDL3/SDL.h"
+#include "SDL/include/SDL3/SDL_main.h"
 #include "headers.h"
 using namespace std;
 
