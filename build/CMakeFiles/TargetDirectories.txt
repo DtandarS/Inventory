@@ -1,8 +1,11 @@
 /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/main.dir
 /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/edit_cache.dir
 /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/rebuild_cache.dir
-/Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir
-/Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir
-/Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL/CMakeFiles/SDL_uclibc.dir
-/Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL/CMakeFiles/edit_cache.dir
-/Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL/CMakeFiles/rebuild_cache.dir
+/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir
+/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3_test.dir
+/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL_uclibc.dir
+/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/edit_cache.dir
+/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/rebuild_cache.dir
+/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir
+/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL_image/CMakeFiles/edit_cache.dir
+/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL_image/CMakeFiles/rebuild_cache.dir

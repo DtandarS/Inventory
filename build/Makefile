@@ -139,7 +139,7 @@ SDL3-shared: cmake_check_build_system
 
 # fast build rule for target.
 SDL3-shared/fast:
-	$(MAKE) $(MAKESILENT) -f EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/build.make EXCLUDE_FROM_FALL/CMakeFiles/SDL3-shared.dir/build
+	$(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make src/lib/SDL/CMakeFiles/SDL3-shared.dir/build
 .PHONY : SDL3-shared/fast
 
 #=============================================================================
@@ -152,7 +152,7 @@ SDL3_test: cmake_check_build_system
 
 # fast build rule for target.
 SDL3_test/fast:
-	$(MAKE) $(MAKESILENT) -f EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/build.make EXCLUDE_FROM_FALL/CMakeFiles/SDL3_test.dir/build
+	$(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3_test.dir/build.make src/lib/SDL/CMakeFiles/SDL3_test.dir/build
 .PHONY : SDL3_test/fast
 
 #=============================================================================
@@ -165,8 +165,21 @@ SDL_uclibc: cmake_check_build_system
 
 # fast build rule for target.
 SDL_uclibc/fast:
-	$(MAKE) $(MAKESILENT) -f EXCLUDE_FROM_FALL/CMakeFiles/SDL_uclibc.dir/build.make EXCLUDE_FROM_FALL/CMakeFiles/SDL_uclibc.dir/build
+	$(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL_uclibc.dir/build.make src/lib/SDL/CMakeFiles/SDL_uclibc.dir/build
 .PHONY : SDL_uclibc/fast
+
+#=============================================================================
+# Target rules for targets named SDL3_image-shared
+
+# Build rule for target.
+SDL3_image-shared: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL3_image-shared
+.PHONY : SDL3_image-shared
+
+# fast build rule for target.
+SDL3_image-shared/fast:
+	$(MAKE) $(MAKESILENT) -f src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/build.make src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/build
+.PHONY : SDL3_image-shared/fast
 
 src/lib/window.o: src/lib/window.cpp.o
 .PHONY : src/lib/window.o
@@ -225,6 +238,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SDL3-shared"
+	@echo "... SDL3_image-shared"
 	@echo "... SDL3_test"
 	@echo "... SDL_uclibc"
 	@echo "... main"

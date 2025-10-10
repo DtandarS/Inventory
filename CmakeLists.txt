@@ -1,21 +1,43 @@
 cmake_minimum_required(VERSION 3.14.0)
 
+
 project(Inventorio)
+
 
 add_subdirectory(
 
-src/lib/SDL/ EXCLUDE_FROM_FALL
+src/lib/SDL/
+EXCLUDE_FROM_ALL
+
+)
+add_subdirectory(
+
+src/lib/SDL_image/
+EXCLUDE_FROM_ALL
 
 )
 
-add_executable(main 
+
+add_executable(
+
+main 
 
 src/main.cpp
+src/lib/headers.h
 src/lib/window.cpp
 
 )
 
-target_link_libraries(main PRIVATE SDL3::SDL3)
+
+target_link_libraries(
+main 
+
+PRIVATE 
+
+SDL3_image::SDL3_image
+SDL3::SDL3 
+
+)
 
 
 

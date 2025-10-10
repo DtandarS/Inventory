@@ -2,7 +2,8 @@
 	"InstallScripts" : 
 	[
 		"/Users/hibiki/Documents/GitHub/Inventory/build/cmake_install.cmake",
-		"/Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL/cmake_install.cmake"
+		"/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/cmake_install.cmake",
+		"/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL_image/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

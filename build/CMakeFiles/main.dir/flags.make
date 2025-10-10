@@ -4,9 +4,9 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/hibiki/Documents/GitHub/Inventory/build/EXCLUDE_FROM_FALL/include-revision -I/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include
+CXX_INCLUDES = -I/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL_image/include -I/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/include-revision -I/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include
 
-CXX_FLAGSarm64 =  -arch arm64
+CXX_FLAGSarm64 =  -arch arm64 -fPIE
 
-CXX_FLAGS =  -arch arm64
+CXX_FLAGS =  -arch arm64 -fPIE
 

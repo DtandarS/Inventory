@@ -1,11 +1,12 @@
 #include <iostream>
 #include <string>
 #include "SDL/include/SDL3/SDL.h"
-#include "SDL/include/SDL3/SDL_main.h"
-#include "SDL/include/SDL3/SDL_image.h"
+#include "SDL_image/include/SDL3_image/SDL_image.h"
 #include "headers.h"
-using namespace std;
+#include "window.h"
 
+using namespace std;
+/* yo I use vim btw ;) */
 
 
 constexpr int ScreenWidth { 400 } ;
@@ -20,13 +21,101 @@ bool loadMedia();
 void close();
 
 
+
 /* global variables */
 SDL_Window* window {nullptr};
 
-SDL_Surface* ScreenSurface {nullptr};
+SDL_Renderer* renderer {nullptr};
 
-SDL_Surface* helloWorld {nullptr};
+LazyTexture globalTexture;
 
+
+LazyTexture::LazyTexture(){
+
+  mTexture = nullptr ; 
+  mWidth = 0 ; 
+  mHeight = 0 ; 
+
+}
+
+LazyTexture::~LazyTexture(){
+
+  destroy();
+
+}
+
+bool LazyTexture::loadFromFile( string path ){
+
+  // Cleans up texture
+  destroy();
+
+
+  string imagePath{ "/Users/hibiki/Documents/Github/Inventory/src/lib/images/haikyuu1.jpg" };
+  SDL_Surface* loadedSurface = IMG_Load(imagePath.c_str() );
+  if ( loadedSurface == nullptr ){
+
+    SDL_Log( "Unable to load image %s! SDL_image error: %s\n", path.c_str(), SDL_GetError() );
+
+  }
+
+  //Create texture from surface
+  mTexture = SDL_CreateTextureFromSurface( renderer, loadedSurface );
+  if(  mTexture == nullptr )
+  {
+    SDL_Log( "Unable to create texture from loaded pixels! SDL error: %s\n", SDL_GetError() );
+  }
+  else
+  {
+    //Get image dimensions
+    mWidth = loadedSurface->w;
+    mHeight = loadedSurface->h;
+  }
+
+  //Clean up loaded surface
+  SDL_DestroySurface( loadedSurface );
+
+  // Returns success if texture is loaded 
+  return mTexture != nullptr; 
+
+}
+
+void LazyTexture::destroy(){
+
+  //Clean up texture
+  SDL_DestroyTexture( mTexture );
+  mTexture = nullptr;
+  mWidth = 0;
+  mHeight = 0;
+
+} 
+
+void LazyTexture::render(float x, float y){
+
+  //Set texture position
+  SDL_FRect dstRect{ x, y, static_cast<float>( mWidth ), static_cast<float>( mHeight ) };
+
+  //Render texture
+  SDL_RenderTexture( renderer, mTexture, nullptr, &dstRect );
+
+}
+
+int LazyTexture::getWidth(){
+
+  return mWidth;
+
+}
+
+int LazyTexture::getHeight(){
+
+  return mHeight;
+
+}
+
+bool LazyTexture::isLoaded(){
+
+  return mTexture != nullptr;
+
+}
 
 
 bool init(){
@@ -44,11 +133,8 @@ bool init(){
   };
 
 
-  // Create the window with specified name and dimensions. //
-  window = SDL_CreateWindow( "Fukc uuuuu", ScreenWidth, ScreenHeight, 0 );
-
-  // We check whether the window is created succesfully //
-  if ( window == nullptr ) {
+  // We check whether the window is created successfully //
+  if ( SDL_CreateWindowAndRenderer( "SDL3 Tutorial: Textures and Extension Libraries", ScreenWidth, ScreenHeight, 0, &window, &renderer ) == false ) {
 
     SDL_Log( "SDL could not create window! SDL error: %s\n", SDL_GetError() );
     printf(" Error 002: Could not create SDL window \n");
@@ -57,8 +143,6 @@ bool init(){
 
   };
 
-
-  ScreenSurface = SDL_GetWindowSurface( window );
 
   printf("The window is succesfully initialized\n");
 
@@ -73,12 +157,10 @@ bool loadMedia(){
   bool success { true };
 
   /* We set the string to the desired bitmap file we want to load then we initialize surface loading */
-  const string imagePath { "/src/lib/resources/haikyuu1.bmp" };
-  helloWorld = SDL_LoadBMP( imagePath.c_str() );
 
-  if (  helloWorld == nullptr ){
+  if ( LazyTexture().loadFromFile( "/Users/hibiki/Documents/Github/Inventory/src/lib/resources/haikyuu1.png") ) {
 
-    SDL_Log( "Unable to load image %s! SDL Error: %s\n", imagePath.c_str(), SDL_GetError() );
+    SDL_Log( "Unable to load image! SDL Error: Could not render png image" );
     printf( "Error 003: SDL could not load image to the screen \n" );
     success = false;
     return false;
@@ -94,39 +176,18 @@ bool loadMedia(){
 void close(){
 
   /* We clean up the surface of the screen */
-  SDL_DestroySurface( helloWorld );
-  helloWorld = nullptr;
+  LazyTexture().destroy();
 
 
   /* Destroy the window */
+  SDL_DestroyRenderer( renderer );
+  renderer = nullptr;
   SDL_DestroyWindow( window );
   window = nullptr;
-  ScreenSurface = nullptr;
 
 
   /* I think "Quit" should be self explanatory enough right??? */
   SDL_Quit();
-
-}
-
-void fillSurface(){
-
-  //Fill the surface white
-  SDL_FillSurfaceRect( ScreenSurface, nullptr, SDL_MapSurfaceRGB( ScreenSurface, 0xFF, 0xFF, 0xFF ) );
-
-}
-
-void renderImage(){
-
-  //Render image on screen
-  SDL_BlitSurface( helloWorld, nullptr, ScreenSurface, nullptr );
-
-}
-
-void updateSurface(){
-
-  //Update the surface
-  SDL_UpdateWindowSurface( window );
 
 }
 

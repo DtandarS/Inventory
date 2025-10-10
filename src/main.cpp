@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <math.h>
 #include "lib/headers.h"
+#include "lib/window.cpp"
 #include "lib/SDL/include/SDL3/SDL.h"
 
 bool boo = true;
@@ -48,11 +49,17 @@ int main( int argc, char* args[]){
       } 
 
     }
+    
 
-    fillSurface();
-    renderImage();
-    updateSurface();
+    //Fill the background white
+    SDL_SetRenderDrawColor( renderer, 0xFF, 0xFF, 0xFF, 0xFF );
+    SDL_RenderClear( renderer );
 
+    //Render image on screen
+    globalTexture.render( 0.f, 0.f );
+
+    //Update screen
+    SDL_RenderPresent( renderer );
   }
 
 
