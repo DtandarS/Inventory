@@ -7,17 +7,17 @@ C_DEFINES = -DDLL_EXPORT -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0
 
 C_INCLUDES = -I/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/include-config-/build_config -I/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/include-revision -I/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include -I/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src
 
-C_FLAGSarm64 =  -arch arm64 -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wdocumentation -Wdocumentation-unknown-command -fcomment-block-commands=threadsafety -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fcolor-diagnostics -idirafter/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/khronos -Wno-error=deprecated-declarations -D_REENTRANT -fobjc-arc
+C_FLAGSarm64 =  -arch arm64 -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wdocumentation -Wdocumentation-unknown-command -fcomment-block-commands=threadsafety -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fcolor-diagnostics -idirafter/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/khronos -Wno-error=deprecated-declarations -Wno-deprecated-declarations -D_REENTRANT -fobjc-arc
 
-C_FLAGS =  -arch arm64 -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wdocumentation -Wdocumentation-unknown-command -fcomment-block-commands=threadsafety -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fcolor-diagnostics -idirafter/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/khronos -Wno-error=deprecated-declarations -D_REENTRANT -fobjc-arc
+C_FLAGS =  -arch arm64 -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wdocumentation -Wdocumentation-unknown-command -fcomment-block-commands=threadsafety -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fcolor-diagnostics -idirafter/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/khronos -Wno-error=deprecated-declarations -Wno-deprecated-declarations -D_REENTRANT -fobjc-arc
 
 OBJC_DEFINES = -DDLL_EXPORT -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DUSING_GENERATED_CONFIG_H
 
 OBJC_INCLUDES = -I/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/include-config-/build_config -I/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/include-revision -I/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include -I/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src
 
-OBJC_FLAGSarm64 = -std=gnu17 -arch arm64 -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wdocumentation -Wdocumentation-unknown-command -fcomment-block-commands=threadsafety -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fcolor-diagnostics -idirafter/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/khronos -Wno-error=deprecated-declarations -D_REENTRANT -fobjc-arc
+OBJC_FLAGSarm64 = -std=gnu17 -arch arm64 -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wdocumentation -Wdocumentation-unknown-command -fcomment-block-commands=threadsafety -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fcolor-diagnostics -idirafter/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/khronos -Wno-error=deprecated-declarations -Wno-deprecated-declarations -D_REENTRANT -fobjc-arc
 
-OBJC_FLAGS = -std=gnu17 -arch arm64 -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wdocumentation -Wdocumentation-unknown-command -fcomment-block-commands=threadsafety -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fcolor-diagnostics -idirafter/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/khronos -Wno-error=deprecated-declarations -D_REENTRANT -fobjc-arc
+OBJC_FLAGS = -std=gnu17 -arch arm64 -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wdocumentation -Wdocumentation-unknown-command -fcomment-block-commands=threadsafety -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fcolor-diagnostics -idirafter/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/khronos -Wno-error=deprecated-declarations -Wno-deprecated-declarations -D_REENTRANT -fobjc-arc
 
 # PCH options: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch_OPTIONS = -Winvalid-pch;-Xclang;-emit-pch;-Xclang;-include;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h;-x;c-header
 
@@ -129,11 +129,11 @@ OBJC_FLAGS = -std=gnu17 -arch arm64 -fPIC -fvisibility=hidden -Wall -Wundef -Wfl
 
 # PCH options: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch;-Xclang;-include;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
+# PCH options: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch;-Xclang;-include;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
 # PCH options: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch;-Xclang;-include;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
 # PCH options: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch;-Xclang;-include;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
-
-# PCH options: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch;-Xclang;-include;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
 # PCH options: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch;-Xclang;-include;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
@@ -347,6 +347,8 @@ OBJC_FLAGS = -std=gnu17 -arch arm64 -fPIC -fvisibility=hidden -Wall -Wundef -Wfl
 
 # PCH options: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch;-Xclang;-include;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
+# PCH options: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch;-Xclang;-include;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
 # PCH options: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch;-Xclang;-include;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
 # PCH options: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch;-Xclang;-include;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
@@ -354,6 +356,8 @@ OBJC_FLAGS = -std=gnu17 -arch arm64 -fPIC -fvisibility=hidden -Wall -Wundef -Wfl
 # PCH options: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch;-Xclang;-include;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
 # PCH options: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch;-Xclang;-include;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+
+# PCH options: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch;-Xclang;-include;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 
 # PCH options: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch;-Xclang;-include;-Xclang;/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 

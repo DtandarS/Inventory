@@ -965,12 +965,28 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.s"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/main/SDL_runapp.c -o CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.s
 
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/misc/SDL_libusb.c
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o -MF CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o.d -o CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/misc/SDL_libusb.c
+
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.i"
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/misc/SDL_libusb.c > CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.i
+
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.s"
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/misc/SDL_libusb.c -o CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.s
+
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/misc/SDL_url.c
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o -MF CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o.d -o CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/misc/SDL_url.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.i: cmake_force
@@ -986,7 +1002,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o: /Users/hibiki/Do
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o -MF CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o.d -o CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/power/SDL_power.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.i: cmake_force
@@ -996,22 +1012,6 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.i: cmake_force
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.s"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/power/SDL_power.c -o CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.s
-
-src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
-src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/SDL_d3dmath.c
-src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
-src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
-src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o -MF CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o.d -o CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/SDL_d3dmath.c
-
-src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/SDL_d3dmath.c > CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.i
-
-src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/SDL_d3dmath.c -o CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.s
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/SDL_render.c
@@ -2703,12 +2703,28 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.s"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_switch.c -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.s
 
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_switch2.c
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_switch2.c
+
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.i"
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_switch2.c > CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.i
+
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.s"
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_switch2.c -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.s
+
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_wii.c
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_wii.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.i: cmake_force
@@ -2724,7 +2740,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_xbox360.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.i: cmake_force
@@ -2740,7 +2756,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_xbox360w.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.i: cmake_force
@@ -2756,7 +2772,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_xboxone.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.i: cmake_force
@@ -2767,12 +2783,28 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.s"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_xboxone.c -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.s
 
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_zuiki.c
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_zuiki.c
+
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.i"
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_zuiki.c > CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.i
+
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.s"
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_zuiki.c -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.s
+
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapijoystick.c
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapijoystick.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.i: cmake_force
@@ -2788,7 +2820,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o: /
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o -MF CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o.d -o CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/haptic/hidapi/SDL_hidapihaptic.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.i: cmake_force
@@ -2804,7 +2836,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o -MF CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o.d -o CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.i: cmake_force
@@ -2818,7 +2850,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/apple/SDL_mfijoystick.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/apple/SDL_mfijoystick.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/apple/SDL_mfijoystick.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/apple/SDL_mfijoystick.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/apple/SDL_mfijoystick.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/apple/SDL_mfijoystick.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/apple/SDL_mfijoystick.m.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/apple/SDL_mfijoystick.m.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/apple/SDL_mfijoystick.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/apple/SDL_mfijoystick.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/apple/SDL_mfijoystick.m.i: cmake_force
@@ -2834,7 +2866,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/darwin/SDL_iokitjoystick.c.o
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/darwin/SDL_iokitjoystick.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/darwin/SDL_iokitjoystick.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/darwin/SDL_iokitjoystick.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/darwin/SDL_iokitjoystick.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/darwin/SDL_iokitjoystick.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/darwin/SDL_iokitjoystick.c.o -MF CMakeFiles/SDL3-shared.dir/src/joystick/darwin/SDL_iokitjoystick.c.o.d -o CMakeFiles/SDL3-shared.dir/src/joystick/darwin/SDL_iokitjoystick.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/darwin/SDL_iokitjoystick.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/darwin/SDL_iokitjoystick.c.i: cmake_force
@@ -2850,7 +2882,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/darwin/SDL_syshaptic.c.o: /Use
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/darwin/SDL_syshaptic.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/darwin/SDL_syshaptic.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/darwin/SDL_syshaptic.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/darwin/SDL_syshaptic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/darwin/SDL_syshaptic.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/darwin/SDL_syshaptic.c.o -MF CMakeFiles/SDL3-shared.dir/src/haptic/darwin/SDL_syshaptic.c.o.d -o CMakeFiles/SDL3-shared.dir/src/haptic/darwin/SDL_syshaptic.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/haptic/darwin/SDL_syshaptic.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/darwin/SDL_syshaptic.c.i: cmake_force
@@ -2866,7 +2898,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/macos/SDL_syspower.c.o: /Users/
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/macos/SDL_syspower.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/macos/SDL_syspower.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/macos/SDL_syspower.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/macos/SDL_syspower.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/macos/SDL_syspower.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/macos/SDL_syspower.c.o -MF CMakeFiles/SDL3-shared.dir/src/power/macos/SDL_syspower.c.o.d -o CMakeFiles/SDL3-shared.dir/src/power/macos/SDL_syspower.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/power/macos/SDL_syspower.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/macos/SDL_syspower.c.i: cmake_force
@@ -2880,7 +2912,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/macos/SDL_syspower.c.s: cmake_f
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/locale/macos/SDL_syslocale.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/locale/macos/SDL_syslocale.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/locale/macos/SDL_syslocale.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/locale/macos/SDL_syslocale.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/locale/macos/SDL_syslocale.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/locale/macos/SDL_syslocale.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/locale/macos/SDL_syslocale.m.o -MF CMakeFiles/SDL3-shared.dir/src/locale/macos/SDL_syslocale.m.o.d -o CMakeFiles/SDL3-shared.dir/src/locale/macos/SDL_syslocale.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/locale/macos/SDL_syslocale.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/locale/macos/SDL_syslocale.m.i: cmake_force
@@ -2896,7 +2928,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o: /Users/hib
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o -MF CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o.d -o CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/time/unix/SDL_systime.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.i: cmake_force
@@ -2912,7 +2944,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o: /Users/h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o -MF CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o.d -o CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/timer/unix/SDL_systimer.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.i: cmake_force
@@ -2926,7 +2958,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.s: cmake_fo
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/filesystem/cocoa/SDL_sysfilesystem.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o -MF CMakeFiles/SDL3-shared.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o.d -o CMakeFiles/SDL3-shared.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/filesystem/cocoa/SDL_sysfilesystem.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.i: cmake_force
@@ -2942,7 +2974,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o -MF CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o.d -o CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/storage/generic/SDL_genericstorage.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.i: cmake_force
@@ -2958,7 +2990,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o: /
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o -MF CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o.d -o CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/storage/steam/SDL_steamstorage.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.i: cmake_force
@@ -2974,7 +3006,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o: /U
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o -MF CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o.d -o CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/filesystem/posix/SDL_sysfsops.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.i: cmake_force
@@ -2988,7 +3020,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.s: cm
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaclipboard.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaclipboard.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoaclipboard.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaclipboard.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaclipboard.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaclipboard.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaclipboard.m.o -MF CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaclipboard.m.o.d -o CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaclipboard.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoaclipboard.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaclipboard.m.i: cmake_force
@@ -3002,7 +3034,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaclipboard.m.s: c
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaevents.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaevents.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoaevents.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaevents.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaevents.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaevents.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaevents.m.o -MF CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaevents.m.o.d -o CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaevents.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoaevents.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaevents.m.i: cmake_force
@@ -3016,7 +3048,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaevents.m.s: cmak
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoakeyboard.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoakeyboard.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoakeyboard.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoakeyboard.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoakeyboard.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoakeyboard.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoakeyboard.m.o -MF CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoakeyboard.m.o.d -o CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoakeyboard.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoakeyboard.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoakeyboard.m.i: cmake_force
@@ -3030,7 +3062,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoakeyboard.m.s: cm
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamessagebox.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamessagebox.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoamessagebox.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamessagebox.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamessagebox.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamessagebox.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamessagebox.m.o -MF CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamessagebox.m.o.d -o CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamessagebox.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoamessagebox.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamessagebox.m.i: cmake_force
@@ -3044,7 +3076,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamessagebox.m.s: 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoametalview.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoametalview.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoametalview.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoametalview.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoametalview.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoametalview.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoametalview.m.o -MF CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoametalview.m.o.d -o CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoametalview.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoametalview.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoametalview.m.i: cmake_force
@@ -3058,7 +3090,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoametalview.m.s: c
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamodes.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamodes.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoamodes.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamodes.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamodes.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamodes.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamodes.m.o -MF CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamodes.m.o.d -o CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamodes.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoamodes.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamodes.m.i: cmake_force
@@ -3072,7 +3104,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamodes.m.s: cmake
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamouse.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamouse.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoamouse.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamouse.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamouse.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamouse.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamouse.m.o -MF CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamouse.m.o.d -o CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamouse.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoamouse.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamouse.m.i: cmake_force
@@ -3086,7 +3118,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamouse.m.s: cmake
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengl.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengl.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoaopengl.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengl.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengl.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengl.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengl.m.o -MF CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengl.m.o.d -o CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengl.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoaopengl.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengl.m.i: cmake_force
@@ -3100,7 +3132,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengl.m.s: cmak
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengles.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengles.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoaopengles.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengles.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengles.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengles.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengles.m.o -MF CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengles.m.o.d -o CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengles.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoaopengles.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengles.m.i: cmake_force
@@ -3114,7 +3146,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengles.m.s: cm
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoapen.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoapen.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoapen.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoapen.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoapen.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoapen.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoapen.m.o -MF CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoapen.m.o.d -o CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoapen.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoapen.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoapen.m.i: cmake_force
@@ -3128,7 +3160,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoapen.m.s: cmake_f
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoashape.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoashape.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoashape.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoashape.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoashape.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoashape.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoashape.m.o -MF CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoashape.m.o.d -o CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoashape.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoashape.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoashape.m.i: cmake_force
@@ -3142,7 +3174,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoashape.m.s: cmake
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavideo.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavideo.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoavideo.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavideo.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavideo.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavideo.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavideo.m.o -MF CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavideo.m.o.d -o CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavideo.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoavideo.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavideo.m.i: cmake_force
@@ -3156,7 +3188,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavideo.m.s: cmake
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavulkan.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavulkan.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoavulkan.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavulkan.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavulkan.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavulkan.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavulkan.m.o -MF CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavulkan.m.o.d -o CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavulkan.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoavulkan.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavulkan.m.i: cmake_force
@@ -3170,7 +3202,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavulkan.m.s: cmak
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoawindow.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoawindow.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoawindow.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoawindow.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoawindow.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoawindow.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoawindow.m.o -MF CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoawindow.m.o.d -o CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoawindow.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/cocoa/SDL_cocoawindow.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoawindow.m.i: cmake_force
@@ -3184,7 +3216,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoawindow.m.s: cmak
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/metal/SDL_render_metal.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/metal/SDL_render_metal.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/metal/SDL_render_metal.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/metal/SDL_render_metal.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/metal/SDL_render_metal.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/metal/SDL_render_metal.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/metal/SDL_render_metal.m.o -MF CMakeFiles/SDL3-shared.dir/src/render/metal/SDL_render_metal.m.o.d -o CMakeFiles/SDL3-shared.dir/src/render/metal/SDL_render_metal.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/metal/SDL_render_metal.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/metal/SDL_render_metal.m.i: cmake_force
@@ -3198,7 +3230,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/metal/SDL_render_metal.m.s: cm
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/metal/SDL_gpu_metal.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/metal/SDL_gpu_metal.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/gpu/metal/SDL_gpu_metal.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/metal/SDL_gpu_metal.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/metal/SDL_gpu_metal.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/metal/SDL_gpu_metal.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/metal/SDL_gpu_metal.m.o -MF CMakeFiles/SDL3-shared.dir/src/gpu/metal/SDL_gpu_metal.m.o.d -o CMakeFiles/SDL3-shared.dir/src/gpu/metal/SDL_gpu_metal.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/gpu/metal/SDL_gpu_metal.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/metal/SDL_gpu_metal.m.i: cmake_force
@@ -3212,7 +3244,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/metal/SDL_gpu_metal.m.s: cmake_fo
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/cocoa/SDL_tray.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/cocoa/SDL_tray.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/tray/cocoa/SDL_tray.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/cocoa/SDL_tray.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/cocoa/SDL_tray.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/cocoa/SDL_tray.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/cocoa/SDL_tray.m.o -MF CMakeFiles/SDL3-shared.dir/src/tray/cocoa/SDL_tray.m.o.d -o CMakeFiles/SDL3-shared.dir/src/tray/cocoa/SDL_tray.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/tray/cocoa/SDL_tray.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/cocoa/SDL_tray.m.i: cmake_force
@@ -3228,7 +3260,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o: /Us
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o -MF CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o.d -o CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/thread/pthread/SDL_systhread.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.i: cmake_force
@@ -3244,7 +3276,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o: /Use
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o -MF CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o.d -o CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/thread/pthread/SDL_sysmutex.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.i: cmake_force
@@ -3260,7 +3292,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o: /User
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o -MF CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o.d -o CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/thread/pthread/SDL_syscond.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.i: cmake_force
@@ -3276,7 +3308,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o: /Us
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o -MF CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o.d -o CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/thread/pthread/SDL_sysrwlock.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.i: cmake_force
@@ -3292,7 +3324,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o: /Users
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o -MF CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o.d -o CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/thread/pthread/SDL_systls.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.i: cmake_force
@@ -3308,7 +3340,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o: /Users
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o -MF CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o.d -o CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/thread/pthread/SDL_syssem.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.i: cmake_force
@@ -3324,7 +3356,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o: /Users/hibiki/
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o -MF CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o.d -o CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/dialog/SDL_dialog.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.i: cmake_force
@@ -3340,7 +3372,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o: /Users/h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o -MF CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o.d -o CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/dialog/SDL_dialog_utils.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.i: cmake_force
@@ -3354,7 +3386,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.s: cmake_fo
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/cocoa/SDL_cocoadialog.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/cocoa/SDL_cocoadialog.m.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/dialog/cocoa/SDL_cocoadialog.m
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/cocoa/SDL_cocoadialog.m.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/cocoa/SDL_cocoadialog.m.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building OBJC object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/cocoa/SDL_cocoadialog.m.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(OBJC_DEFINES) $(OBJC_INCLUDES) -x objective-c $(OBJC_FLAGS)  -x objective-c -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/cocoa/SDL_cocoadialog.m.o -MF CMakeFiles/SDL3-shared.dir/src/dialog/cocoa/SDL_cocoadialog.m.o.d -o CMakeFiles/SDL3-shared.dir/src/dialog/cocoa/SDL_cocoadialog.m.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/dialog/cocoa/SDL_cocoadialog.m
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/cocoa/SDL_cocoadialog.m.i: cmake_force
@@ -3370,7 +3402,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o: /Users/hibik
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o -MF CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o.d -o CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/process/SDL_process.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.i: cmake_force
@@ -3386,7 +3418,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o: /
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o -MF CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o.d -o CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/process/posix/SDL_posixprocess.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.i: cmake_force
@@ -3402,7 +3434,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/offscreen/SDL_offscreenevents.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.i: cmake_force
@@ -3418,7 +3450,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuf
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/offscreen/SDL_offscreenframebuffer.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.i: cmake_force
@@ -3434,7 +3466,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/offscreen/SDL_offscreenopengles.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.i: cmake_force
@@ -3450,7 +3482,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/offscreen/SDL_offscreenvideo.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.i: cmake_force
@@ -3466,7 +3498,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/offscreen/SDL_offscreenvulkan.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.i: cmake_force
@@ -3482,7 +3514,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o -MF CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o.d -o CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/offscreen/SDL_offscreenwindow.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.i: cmake_force
@@ -3498,7 +3530,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o: /Users/hibik
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o -MF CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o.d -o CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/tray/SDL_tray_utils.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.i: cmake_force
@@ -3514,7 +3546,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o: /Users
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o -MF CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o.d -o CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/gpu/vulkan/SDL_gpu_vulkan.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.i: cmake_force
@@ -3530,7 +3562,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o: /Us
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o -MF CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o.d -o CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/sensor/dummy/SDL_dummysensor.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.i: cmake_force
@@ -3546,7 +3578,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o: src/lib/SDL/CMakeFiles/SDL3-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch -Xclang -include -Xclang /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h -MD -MT src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o -MF CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o.d -o CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/main/generic/SDL_sysmain_callbacks.c
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.i: cmake_force
@@ -3614,9 +3646,9 @@ SDL3__shared_OBJECTS = \
 "CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o" \
-"CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.o" \
@@ -3723,10 +3755,12 @@ SDL3__shared_OBJECTS = \
 "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o" \
+"CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o" \
 "CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o" \
@@ -3783,240 +3817,242 @@ SDL3__shared_OBJECTS = \
 # External object files for target SDL3-shared
 SDL3__shared_EXTERNAL_OBJECTS =
 
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_error.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_list.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_rotate.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/dlopen/SDL_sysloadso.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/camera/coremedia/SDL_camera_coremedia.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/macos/SDL_sysurl.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/coreaudio/SDL_coreaudio.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/apple/SDL_mfijoystick.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/darwin/SDL_iokitjoystick.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/darwin/SDL_syshaptic.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/macos/SDL_syspower.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/locale/macos/SDL_syslocale.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaclipboard.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaevents.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoakeyboard.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamessagebox.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoametalview.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamodes.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamouse.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengl.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengles.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoapen.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoashape.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavideo.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavulkan.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoawindow.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/metal/SDL_render_metal.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/metal/SDL_gpu_metal.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/cocoa/SDL_tray.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/cocoa/SDL_cocoadialog.m.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/libSDL_uclibc.a
-src/lib/SDL/libSDL3.0.dylib: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/dynapi/SDL_dynapi.sym
-src/lib/SDL/libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Linking C shared library libSDL3.dylib"
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_error.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_list.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_rotate.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/dlopen/SDL_sysloadso.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/camera/coremedia/SDL_camera_coremedia.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/macos/SDL_sysurl.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/audio/coreaudio/SDL_coreaudio.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/apple/SDL_mfijoystick.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/darwin/SDL_iokitjoystick.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/darwin/SDL_syshaptic.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/macos/SDL_syspower.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/locale/macos/SDL_syslocale.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/cocoa/SDL_sysfilesystem.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaclipboard.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaevents.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoakeyboard.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamessagebox.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoametalview.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamodes.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoamouse.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengl.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoaopengles.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoapen.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoashape.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavideo.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoavulkan.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/cocoa/SDL_cocoawindow.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/metal/SDL_render_metal.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/metal/SDL_gpu_metal.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/cocoa/SDL_tray.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/cocoa/SDL_cocoadialog.m.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make
+libSDL3.0.dylib: src/lib/SDL/libSDL_uclibc.a
+libSDL3.0.dylib: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/dynapi/SDL_dynapi.sym
+libSDL3.0.dylib: src/lib/SDL/CMakeFiles/SDL3-shared.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Linking C shared library ../../../libSDL3.dylib"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL3-shared.dir/link.txt --verbose=$(VERBOSE)
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && $(CMAKE_COMMAND) -E cmake_symlink_library libSDL3.0.dylib libSDL3.0.dylib libSDL3.dylib
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../libSDL3.0.dylib ../../../libSDL3.0.dylib ../../../libSDL3.dylib
 
-src/lib/SDL/libSDL3.dylib: src/lib/SDL/libSDL3.0.dylib
-	@$(CMAKE_COMMAND) -E touch_nocreate src/lib/SDL/libSDL3.dylib
+libSDL3.dylib: libSDL3.0.dylib
+	@$(CMAKE_COMMAND) -E touch_nocreate libSDL3.dylib
 
 # Rule to build all files generated by this target.
-src/lib/SDL/CMakeFiles/SDL3-shared.dir/build: src/lib/SDL/libSDL3.dylib
+src/lib/SDL/CMakeFiles/SDL3-shared.dir/build: libSDL3.dylib
 .PHONY : src/lib/SDL/CMakeFiles/SDL3-shared.dir/build
 
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/clean:

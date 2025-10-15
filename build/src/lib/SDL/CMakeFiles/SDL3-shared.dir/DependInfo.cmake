@@ -171,6 +171,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_switch.c" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o.d"
+  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_switch2.c" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o.d"
+  "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_wii.c" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_xbox360.c" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o.d"
@@ -179,6 +181,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_xboxone.c" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o.d"
+  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_zuiki.c" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o.d"
+  "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapijoystick.c" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/virtual/SDL_virtualjoystick.c" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.o.d"
@@ -193,6 +197,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/main/generic/SDL_sysmain_callbacks.c" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o.d"
+  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/misc/SDL_libusb.c" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o.d"
+  "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/misc/SDL_url.c" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/power/SDL_power.c" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o.d"
@@ -203,8 +209,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/process/posix/SDL_posixprocess.c" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o.d"
-  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/SDL_d3dmath.c" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o.d"
-  "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/SDL_render.c" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o.d"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/SDL_render_unsupported.c" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.o" "gcc" "src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.o.d"
@@ -429,7 +433,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Pairs of files generated by the same build rule.
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/libSDL3.dylib" "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/libSDL3.0.dylib"
+  "/Users/hibiki/Documents/GitHub/Inventory/build/libSDL3.dylib" "/Users/hibiki/Documents/GitHub/Inventory/build/libSDL3.0.dylib"
   )
 
 

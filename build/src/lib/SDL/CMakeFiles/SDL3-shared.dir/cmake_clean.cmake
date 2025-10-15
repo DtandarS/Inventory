@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "../../../libSDL3.0.dylib"
+  "../../../libSDL3.dylib"
+  "../../../libSDL3.pdb"
   ".0"
   "CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch"
   "CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch.d"
@@ -176,6 +179,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o.d"
   "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o"
   "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o.d"
+  "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o"
+  "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o.d"
   "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o"
   "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o.d"
   "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o"
@@ -184,6 +189,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o.d"
   "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o"
   "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o.d"
+  "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o"
+  "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o.d"
   "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o"
   "CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o.d"
   "CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.o"
@@ -200,6 +207,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.o.d"
   "CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o"
   "CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o.d"
+  "CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o"
+  "CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o.d"
   "CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o"
   "CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o.d"
   "CMakeFiles/SDL3-shared.dir/src/misc/macos/SDL_sysurl.m.o"
@@ -212,8 +221,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o.d"
   "CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o"
   "CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o.d"
-  "CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o"
-  "CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o.d"
   "CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o"
   "CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o.d"
   "CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.o"
@@ -442,9 +449,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.o.d"
   "CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o"
   "CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o.d"
-  "libSDL3.0.dylib"
-  "libSDL3.dylib"
-  "libSDL3.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

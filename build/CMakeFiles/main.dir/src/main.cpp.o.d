@@ -784,8 +784,6 @@ CMakeFiles/main.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/headers.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/window.cpp \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_stdinc.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_platform_defines.h \
@@ -813,6 +811,7 @@ CMakeFiles/main.dir/src/main.cpp.o: \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_cpuinfo.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_dialog.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_video.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_dlopennote.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_events.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_gamepad.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_guid.h \
@@ -847,5 +846,6 @@ CMakeFiles/main.dir/src/main.cpp.o: \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_tray.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_version.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_oldnames.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_main.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL_image/include/SDL3_image/SDL_image.h
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL_image/include/SDL3_image/SDL_image.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/headers.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/window.h

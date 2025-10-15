@@ -453,47 +453,47 @@ SDL3_image__shared_OBJECTS = \
 # External object files for target SDL3_image-shared
 SDL3_image__shared_EXTERNAL_OBJECTS =
 
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_WIC.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_anim_encoder.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_anim_decoder.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_avif.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_bmp.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_gif.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_jpg.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_jxl.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_lbm.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_pcx.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_png.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_pnm.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_qoi.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_stb.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_svg.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_tga.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_tif.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_webp.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_xcf.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_xpm.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_xv.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_libpng.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/xmlman.c.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_ImageIO.m.o
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/build.make
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL/libSDL3.0.dylib
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/dynapi/SDL_dynapi.sym
-src/lib/SDL_image/libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C shared library libSDL3_image.dylib"
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_WIC.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_anim_encoder.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_anim_decoder.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_avif.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_bmp.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_gif.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_jpg.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_jxl.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_lbm.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_pcx.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_png.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_pnm.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_qoi.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_stb.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_svg.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_tga.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_tif.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_webp.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_xcf.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_xpm.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_xv.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_libpng.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/xmlman.c.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_ImageIO.m.o
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/build.make
+libSDL3_image.0.3.0.dylib: libSDL3.0.dylib
+libSDL3_image.0.3.0.dylib: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/dynapi/SDL_dynapi.sym
+libSDL3_image.0.3.0.dylib: src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C shared library ../../../libSDL3_image.dylib"
 	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL_image && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL3_image-shared.dir/link.txt --verbose=$(VERBOSE)
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL_image && $(CMAKE_COMMAND) -E cmake_symlink_library libSDL3_image.0.3.0.dylib libSDL3_image.0.dylib libSDL3_image.dylib
+	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL_image && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../libSDL3_image.0.3.0.dylib ../../../libSDL3_image.0.dylib ../../../libSDL3_image.dylib
 
-src/lib/SDL_image/libSDL3_image.0.dylib: src/lib/SDL_image/libSDL3_image.0.3.0.dylib
-	@$(CMAKE_COMMAND) -E touch_nocreate src/lib/SDL_image/libSDL3_image.0.dylib
+libSDL3_image.0.dylib: libSDL3_image.0.3.0.dylib
+	@$(CMAKE_COMMAND) -E touch_nocreate libSDL3_image.0.dylib
 
-src/lib/SDL_image/libSDL3_image.dylib: src/lib/SDL_image/libSDL3_image.0.3.0.dylib
-	@$(CMAKE_COMMAND) -E touch_nocreate src/lib/SDL_image/libSDL3_image.dylib
+libSDL3_image.dylib: libSDL3_image.0.3.0.dylib
+	@$(CMAKE_COMMAND) -E touch_nocreate libSDL3_image.dylib
 
 # Rule to build all files generated by this target.
-src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/build: src/lib/SDL_image/libSDL3_image.dylib
+src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/build: libSDL3_image.dylib
 .PHONY : src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/build
 
 src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/clean:

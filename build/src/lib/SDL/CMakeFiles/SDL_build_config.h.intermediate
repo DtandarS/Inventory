@@ -180,6 +180,7 @@
 /* #undef HAVE_MEMFD_CREATE */
 /* #undef HAVE_POSIX_FALLOCATE */
 #define HAVE_SIGACTION 1
+/* #undef HAVE_SIGTIMEDWAIT */
 #define HAVE_SA_SIGACTION 1
 /* #undef HAVE_ST_MTIM */
 #define HAVE_SETJMP 1
@@ -215,6 +216,8 @@
 /* #undef HAVE_LIBUDEV_H */
 /* #undef HAVE_LIBDECOR_H */
 /* #undef HAVE_LIBURING_H */
+/* #undef HAVE_FRIBIDI_H */
+/* #undef SDL_FRIBIDI_DYNAMIC */
 
 /* #undef HAVE_DDRAW_H */
 /* #undef HAVE_DSOUND_H */
@@ -234,6 +237,8 @@
 /* #undef USE_POSIX_SPAWN */
 /* #undef HAVE_POSIX_SPAWN_FILE_ACTIONS_ADDCHDIR */
 #define HAVE_POSIX_SPAWN_FILE_ACTIONS_ADDCHDIR_NP 1
+
+/* #undef SDL_DISABLE_DLOPEN_NOTES */
 
 /* SDL internal assertion support */
 /* #undef SDL_DEFAULT_ASSERT_LEVEL_CONFIGURED */
@@ -431,6 +436,7 @@
 /* #undef SDL_VIDEO_DRIVER_X11_XINPUT2 */
 /* #undef SDL_VIDEO_DRIVER_X11_XINPUT2_SUPPORTS_MULTITOUCH */
 /* #undef SDL_VIDEO_DRIVER_X11_XINPUT2_SUPPORTS_SCROLLINFO */
+/* #undef SDL_VIDEO_DRIVER_X11_XINPUT2_SUPPORTS_GESTURE */
 /* #undef SDL_VIDEO_DRIVER_X11_XRANDR */
 /* #undef SDL_VIDEO_DRIVER_X11_XSCRNSAVER */
 /* #undef SDL_VIDEO_DRIVER_X11_XSHAPE */
@@ -539,6 +545,9 @@
 
 /* Enable dialog subsystem */
 /* #undef SDL_DIALOG_DUMMY */
+
+/* Enable tray subsystem */
+/* #undef SDL_TRAY_DUMMY */
 
 /* Enable assembly routines */
 /* #undef SDL_ALTIVEC_BLITTERS */

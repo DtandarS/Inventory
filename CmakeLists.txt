@@ -1,43 +1,80 @@
 cmake_minimum_required(VERSION 3.14.0)
 
 
-project(Inventorio)
+# ---------------------------------- #
+project(
+
+Inventorio
+
+)
+# ---------------------------------- #
 
 
+# ---------------------------------- #
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
+# ---------------------------------- #
+
+
+# ---------------------------------- #
 add_subdirectory(
 
 src/lib/SDL/
 EXCLUDE_FROM_ALL
 
 )
+# ---------------------------------- #
+
+
+# ---------------------------------- #
 add_subdirectory(
 
 src/lib/SDL_image/
 EXCLUDE_FROM_ALL
 
 )
+# ---------------------------------- #
 
 
+# ---------------------------------- #
 add_executable(
 
 main 
 
 src/main.cpp
 src/lib/headers.h
-src/lib/window.cpp
 
 )
+# ---------------------------------- #
 
 
-target_link_libraries(
+
+
+# ---------------------------------- #
+target_include_directories(
+
 main 
 
 PRIVATE 
 
-SDL3_image::SDL3_image
-SDL3::SDL3 
+src/lib/SDL/include/SDL3/
+src/lib/SDL_image/include/SDL3_image/
 
 )
+# ---------------------------------- #
+
+
+# ---------------------------------- #
+target_link_libraries(
+
+main 
+
+PRIVATE 
+SDL3::SDL3 
+SDL3_image::SDL3_image 
+
+)
+# ---------------------------------- #
 
 
 

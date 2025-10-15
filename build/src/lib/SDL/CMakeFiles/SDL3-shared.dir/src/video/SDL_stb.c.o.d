@@ -198,6 +198,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.o: \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_cpuinfo.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_dialog.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_video.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_dlopennote.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_events.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_gamepad.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_guid.h \
@@ -241,4 +242,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.o: \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/SDL_hashtable.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_stb.c \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_stb_c.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/stb_image.h
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_surface_c.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_blit.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/stb_image.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/miniz.h

@@ -113,6 +113,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(CMAKE_COMMAND) -P /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/VerifyGlobs.cmake
 	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -2165,6 +2166,30 @@ src/joystick/hidapi/SDL_hidapi_switch.c.s:
 	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_switch.c.s
 
+src/joystick/hidapi/SDL_hidapi_switch2.o: src/joystick/hidapi/SDL_hidapi_switch2.c.o
+.PHONY : src/joystick/hidapi/SDL_hidapi_switch2.o
+
+# target to build an object file
+src/joystick/hidapi/SDL_hidapi_switch2.c.o:
+	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.o
+.PHONY : src/joystick/hidapi/SDL_hidapi_switch2.c.o
+
+src/joystick/hidapi/SDL_hidapi_switch2.i: src/joystick/hidapi/SDL_hidapi_switch2.c.i
+.PHONY : src/joystick/hidapi/SDL_hidapi_switch2.i
+
+# target to preprocess a source file
+src/joystick/hidapi/SDL_hidapi_switch2.c.i:
+	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.i
+.PHONY : src/joystick/hidapi/SDL_hidapi_switch2.c.i
+
+src/joystick/hidapi/SDL_hidapi_switch2.s: src/joystick/hidapi/SDL_hidapi_switch2.c.s
+.PHONY : src/joystick/hidapi/SDL_hidapi_switch2.s
+
+# target to generate assembly for a file
+src/joystick/hidapi/SDL_hidapi_switch2.c.s:
+	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.s
+.PHONY : src/joystick/hidapi/SDL_hidapi_switch2.c.s
+
 src/joystick/hidapi/SDL_hidapi_wii.o: src/joystick/hidapi/SDL_hidapi_wii.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapi_wii.o
 
@@ -2260,6 +2285,30 @@ src/joystick/hidapi/SDL_hidapi_xboxone.s: src/joystick/hidapi/SDL_hidapi_xboxone
 src/joystick/hidapi/SDL_hidapi_xboxone.c.s:
 	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_xboxone.c.s
+
+src/joystick/hidapi/SDL_hidapi_zuiki.o: src/joystick/hidapi/SDL_hidapi_zuiki.c.o
+.PHONY : src/joystick/hidapi/SDL_hidapi_zuiki.o
+
+# target to build an object file
+src/joystick/hidapi/SDL_hidapi_zuiki.c.o:
+	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.o
+.PHONY : src/joystick/hidapi/SDL_hidapi_zuiki.c.o
+
+src/joystick/hidapi/SDL_hidapi_zuiki.i: src/joystick/hidapi/SDL_hidapi_zuiki.c.i
+.PHONY : src/joystick/hidapi/SDL_hidapi_zuiki.i
+
+# target to preprocess a source file
+src/joystick/hidapi/SDL_hidapi_zuiki.c.i:
+	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.i
+.PHONY : src/joystick/hidapi/SDL_hidapi_zuiki.c.i
+
+src/joystick/hidapi/SDL_hidapi_zuiki.s: src/joystick/hidapi/SDL_hidapi_zuiki.c.s
+.PHONY : src/joystick/hidapi/SDL_hidapi_zuiki.s
+
+# target to generate assembly for a file
+src/joystick/hidapi/SDL_hidapi_zuiki.c.s:
+	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.s
+.PHONY : src/joystick/hidapi/SDL_hidapi_zuiki.c.s
 
 src/joystick/hidapi/SDL_hidapijoystick.o: src/joystick/hidapi/SDL_hidapijoystick.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapijoystick.o
@@ -3037,6 +3086,30 @@ src/main/generic/SDL_sysmain_callbacks.c.s:
 	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.s
 .PHONY : src/main/generic/SDL_sysmain_callbacks.c.s
 
+src/misc/SDL_libusb.o: src/misc/SDL_libusb.c.o
+.PHONY : src/misc/SDL_libusb.o
+
+# target to build an object file
+src/misc/SDL_libusb.c.o:
+	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.o
+.PHONY : src/misc/SDL_libusb.c.o
+
+src/misc/SDL_libusb.i: src/misc/SDL_libusb.c.i
+.PHONY : src/misc/SDL_libusb.i
+
+# target to preprocess a source file
+src/misc/SDL_libusb.c.i:
+	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.i
+.PHONY : src/misc/SDL_libusb.c.i
+
+src/misc/SDL_libusb.s: src/misc/SDL_libusb.c.s
+.PHONY : src/misc/SDL_libusb.s
+
+# target to generate assembly for a file
+src/misc/SDL_libusb.c.s:
+	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.s
+.PHONY : src/misc/SDL_libusb.c.s
+
 src/misc/SDL_url.o: src/misc/SDL_url.c.o
 .PHONY : src/misc/SDL_url.o
 
@@ -3164,30 +3237,6 @@ src/process/posix/SDL_posixprocess.s: src/process/posix/SDL_posixprocess.c.s
 src/process/posix/SDL_posixprocess.c.s:
 	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.s
 .PHONY : src/process/posix/SDL_posixprocess.c.s
-
-src/render/SDL_d3dmath.o: src/render/SDL_d3dmath.c.o
-.PHONY : src/render/SDL_d3dmath.o
-
-# target to build an object file
-src/render/SDL_d3dmath.c.o:
-	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.o
-.PHONY : src/render/SDL_d3dmath.c.o
-
-src/render/SDL_d3dmath.i: src/render/SDL_d3dmath.c.i
-.PHONY : src/render/SDL_d3dmath.i
-
-# target to preprocess a source file
-src/render/SDL_d3dmath.c.i:
-	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.i
-.PHONY : src/render/SDL_d3dmath.c.i
-
-src/render/SDL_d3dmath.s: src/render/SDL_d3dmath.c.s
-.PHONY : src/render/SDL_d3dmath.s
-
-# target to generate assembly for a file
-src/render/SDL_d3dmath.c.s:
-	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(MAKE) $(MAKESILENT) -f src/lib/SDL/CMakeFiles/SDL3-shared.dir/build.make src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_d3dmath.c.s
-.PHONY : src/render/SDL_d3dmath.c.s
 
 src/render/SDL_render.o: src/render/SDL_render.c.o
 .PHONY : src/render/SDL_render.o
@@ -6172,6 +6221,9 @@ help:
 	@echo "... src/joystick/hidapi/SDL_hidapi_switch.o"
 	@echo "... src/joystick/hidapi/SDL_hidapi_switch.i"
 	@echo "... src/joystick/hidapi/SDL_hidapi_switch.s"
+	@echo "... src/joystick/hidapi/SDL_hidapi_switch2.o"
+	@echo "... src/joystick/hidapi/SDL_hidapi_switch2.i"
+	@echo "... src/joystick/hidapi/SDL_hidapi_switch2.s"
 	@echo "... src/joystick/hidapi/SDL_hidapi_wii.o"
 	@echo "... src/joystick/hidapi/SDL_hidapi_wii.i"
 	@echo "... src/joystick/hidapi/SDL_hidapi_wii.s"
@@ -6184,6 +6236,9 @@ help:
 	@echo "... src/joystick/hidapi/SDL_hidapi_xboxone.o"
 	@echo "... src/joystick/hidapi/SDL_hidapi_xboxone.i"
 	@echo "... src/joystick/hidapi/SDL_hidapi_xboxone.s"
+	@echo "... src/joystick/hidapi/SDL_hidapi_zuiki.o"
+	@echo "... src/joystick/hidapi/SDL_hidapi_zuiki.i"
+	@echo "... src/joystick/hidapi/SDL_hidapi_zuiki.s"
 	@echo "... src/joystick/hidapi/SDL_hidapijoystick.o"
 	@echo "... src/joystick/hidapi/SDL_hidapijoystick.i"
 	@echo "... src/joystick/hidapi/SDL_hidapijoystick.s"
@@ -6281,6 +6336,9 @@ help:
 	@echo "... src/main/generic/SDL_sysmain_callbacks.o"
 	@echo "... src/main/generic/SDL_sysmain_callbacks.i"
 	@echo "... src/main/generic/SDL_sysmain_callbacks.s"
+	@echo "... src/misc/SDL_libusb.o"
+	@echo "... src/misc/SDL_libusb.i"
+	@echo "... src/misc/SDL_libusb.s"
 	@echo "... src/misc/SDL_url.o"
 	@echo "... src/misc/SDL_url.i"
 	@echo "... src/misc/SDL_url.s"
@@ -6297,9 +6355,6 @@ help:
 	@echo "... src/process/posix/SDL_posixprocess.o"
 	@echo "... src/process/posix/SDL_posixprocess.i"
 	@echo "... src/process/posix/SDL_posixprocess.s"
-	@echo "... src/render/SDL_d3dmath.o"
-	@echo "... src/render/SDL_d3dmath.i"
-	@echo "... src/render/SDL_d3dmath.s"
 	@echo "... src/render/SDL_render.o"
 	@echo "... src/render/SDL_render.i"
 	@echo "... src/render/SDL_render.s"
@@ -6651,6 +6706,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(CMAKE_COMMAND) -P /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/VerifyGlobs.cmake
 	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

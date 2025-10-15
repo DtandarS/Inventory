@@ -198,6 +198,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.o: \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_cpuinfo.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_dialog.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_video.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_dlopennote.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_events.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_gamepad.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_guid.h \
@@ -261,5 +262,6 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.o: \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/events/../camera/SDL_camera_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/events/../camera/../SDL_internal.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/events/../timer/SDL_timer_c.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/events/../core/linux/SDL_udev.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/events/../joystick/SDL_joystick_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/events/../sensor/SDL_sensor_c.h

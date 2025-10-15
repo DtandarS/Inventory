@@ -113,6 +113,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -181,30 +182,6 @@ SDL3_image-shared/fast:
 	$(MAKE) $(MAKESILENT) -f src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/build.make src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/build
 .PHONY : SDL3_image-shared/fast
 
-src/lib/window.o: src/lib/window.cpp.o
-.PHONY : src/lib/window.o
-
-# target to build an object file
-src/lib/window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/lib/window.cpp.o
-.PHONY : src/lib/window.cpp.o
-
-src/lib/window.i: src/lib/window.cpp.i
-.PHONY : src/lib/window.i
-
-# target to preprocess a source file
-src/lib/window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/lib/window.cpp.i
-.PHONY : src/lib/window.cpp.i
-
-src/lib/window.s: src/lib/window.cpp.s
-.PHONY : src/lib/window.s
-
-# target to generate assembly for a file
-src/lib/window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/lib/window.cpp.s
-.PHONY : src/lib/window.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -242,9 +219,6 @@ help:
 	@echo "... SDL3_test"
 	@echo "... SDL_uclibc"
 	@echo "... main"
-	@echo "... src/lib/window.o"
-	@echo "... src/lib/window.i"
-	@echo "... src/lib/window.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -259,6 +233,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

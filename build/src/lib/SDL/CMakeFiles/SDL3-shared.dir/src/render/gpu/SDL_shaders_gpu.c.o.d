@@ -198,6 +198,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.o: \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_cpuinfo.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_dialog.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_video.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_dlopennote.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_events.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_gamepad.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_guid.h \
@@ -244,18 +245,16 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.o: \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/spir-v.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/color.frag.spv.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/linepoint.vert.spv.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/texture_advanced.frag.spv.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/texture_rgb.frag.spv.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/texture_rgb_pixelart.frag.spv.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/texture_rgba.frag.spv.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/texture_rgba_pixelart.frag.spv.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/tri_color.vert.spv.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/tri_texture.vert.spv.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/msl.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/color.frag.msl.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/linepoint.vert.msl.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/texture_advanced.frag.msl.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/texture_rgb.frag.msl.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/texture_rgb_pixelart.frag.msl.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/texture_rgba.frag.msl.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/texture_rgba_pixelart.frag.msl.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/tri_color.vert.msl.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/gpu/shaders/tri_texture.vert.msl.h

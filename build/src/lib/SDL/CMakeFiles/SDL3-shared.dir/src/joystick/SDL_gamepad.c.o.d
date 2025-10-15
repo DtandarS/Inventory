@@ -198,6 +198,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.o: \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_cpuinfo.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_dialog.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_video.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_dlopennote.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_events.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_gamepad.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_guid.h \
@@ -247,7 +248,9 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.o: \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/SDL_gamepad_db.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/controller_type.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/usb_ids.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_flydigi.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_nintendo.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_sinput.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/../events/SDL_events_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/../events/../video/SDL_sysvideo.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_vulkan.h \

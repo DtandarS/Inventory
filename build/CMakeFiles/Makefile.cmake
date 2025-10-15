@@ -12,6 +12,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.1.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.1.0/CMakeOBJCCompiler.cmake"
   "CMakeFiles/4.1.0/CMakeSystem.cmake"
+  "CMakeFiles/VerifyGlobs.cmake"
+  "CMakeFiles/cmake.verify_globs"
   "src/lib/SDL/CMakeFiles/SDL_build_config.h.intermediate"
   "src/lib/SDL/CMakeFiles/git-data/grabRef.cmake"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/.git/HEAD"

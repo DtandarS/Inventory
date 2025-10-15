@@ -1,8 +1,18 @@
 
 #ifndef WINDOW_H
 #define WINDOW_H
-#include "SDL/include/SDL3/SDL.h"
-#include "SDL_image/include/SDL3_image/SDL_image.h"
+#include <SDL3/SDL.h>
+#include <iostream>
+
+using namespace std;
+
+/* declaring */
+bool init();
+
+bool loadMedia();
+
+void close();
+
 
 class LazyTexture{
 
