@@ -1,7 +1,4 @@
 file(REMOVE_RECURSE
-  "../../../libSDL3.0.dylib"
-  "../../../libSDL3.dylib"
-  "../../../libSDL3.pdb"
   ".0"
   "CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch"
   "CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch.d"
@@ -449,6 +446,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.o.d"
   "CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o"
   "CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o.d"
+  "libSDL3.0.dylib"
+  "libSDL3.dylib"
+  "libSDL3.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,242 +1,114 @@
 /* This program is build using and following lazy foo's production tutorial. All appriciation goes to him and his code. */
 /* oh yeah. I use vim btw */
 
+#define SDL_MAIN_USE_CALLBACKS 1  /* use the callbacks instead of main() */
 #include <iostream>
 #include <stdio.h>
 #include <math.h>
 #include <SDL3/SDL.h>
+#include <SDL3/SDL_main.h>
 #include <SDL3_image/SDL_image.h>
 #include "lib/headers.h"
 
-bool boo = true;
-int n, m, y;
 
-constexpr int ScreenWidth { 400 } ;
-constexpr int ScreenHeight { 600 } ;
+/* We will use this renderer to draw into this window every frame. */
+static SDL_Window *window = NULL;
+static SDL_Renderer *renderer = NULL;
 
+#define WINDOW_WIDTH 640
+#define WINDOW_HEIGHT 480
 
-/* global variables */
-SDL_Window* window {nullptr};
+/* This function runs once at startup. */
+SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
+{
+    SDL_SetAppMetadata("Example Renderer Rectangles", "1.0", "com.example.renderer-rectangles");
 
-SDL_Renderer* renderer {nullptr};
-
-LazyTexture globalTexture;
-
-
-LazyTexture::LazyTexture(){
-
-  mTexture = nullptr ; 
-  mWidth = 0 ; 
-  mHeight = 0 ; 
-
-}
-
-LazyTexture::~LazyTexture(){
-
-  destroy();
-
-}
-
-bool LazyTexture::loadFromFile( string path ){
-
-  // Cleans up texture
-  destroy();
-
-
-  SDL_Surface* loadedSurface = IMG_Load(path.c_str() );
-  if ( loadedSurface == nullptr ){
-
-    SDL_Log( "Unable to load image %s! SDL_image error: %s\n", path.c_str(), SDL_GetError() );
-
-  }
-
-  //Create texture from surface
-  mTexture = SDL_CreateTextureFromSurface( renderer, loadedSurface );
-  if(  mTexture == nullptr )
-  {
-    SDL_Log( "Unable to create texture from loaded pixels! SDL error: %s\n", SDL_GetError() );
-  }
-  else
-  {
-    //Get image dimensions
-    mWidth = loadedSurface->w;
-    mHeight = loadedSurface->h;
-  }
-
-  //Clean up loaded surface
-  SDL_DestroySurface( loadedSurface );
-
-  // Returns success if texture is loaded 
-  return mTexture != nullptr; 
-
-}
-
-void LazyTexture::destroy(){
-
-  //Clean up texture
-  SDL_DestroyTexture( mTexture );
-  mTexture = nullptr;
-  mWidth = 0;
-  mHeight = 0;
-
-} 
-
-void LazyTexture::render(float x, float y){
-
-  //Set texture position
-  SDL_FRect dstRect{ x, y, static_cast<float>( mWidth ), static_cast<float>( mHeight ) };
-
-  //Render texture
-  SDL_RenderTexture( renderer, mTexture, nullptr, &dstRect );
-
-}
-
-int LazyTexture::getWidth(){
-
-  return mWidth;
-
-}
-
-int LazyTexture::getHeight(){
-
-  return mHeight;
-
-}
-
-bool LazyTexture::isLoaded(){
-
-  return mTexture != nullptr;
-
-}
-
-
-bool init(){
-
-  bool success { true };
-
-  // Initialize the SDL for main window use purposes //
-  if ( SDL_Init( SDL_INIT_VIDEO ) == false ){
-
-    SDL_Log( "SDL could not initialize! SDL error: %s\n", SDL_GetError() );
-    printf(" Error 001: Could not initialize SDL \n");
-    success = false;
-    return false;
-
-  };
-
-
-  // We check whether the window is created successfully //
-  if ( SDL_CreateWindowAndRenderer( "SDL3 Tutorial: Textures and Extension Libraries", ScreenWidth, ScreenHeight, 0, &window, &renderer ) == false ) {
-
-    SDL_Log( "SDL could not create window! SDL error: %s\n", SDL_GetError() );
-    printf(" Error 002: Could not create SDL window \n");
-    success = false;
-    return false;
-
-  };
-
-
-  printf("The window is succesfully initialized\n");
-
-  return success;
-
-};
-
-
-bool loadMedia(){
-
-  /* This will be used a way to confirm loaded file */
-  bool success { true };
-
-  /* We set the string to the desired bitmap file we want to load then we initialize surface loading */
-
-  if ( !globalTexture.loadFromFile( "images/haikyuu1.png" ) ) {
-
-    SDL_Log( "Unable to load image! SDL Error: Could not render png image" );
-    printf( "Error 003: SDL could not load image to the screen \n" );
-    success = false;
-    return false;
-
-  }
-
-  printf("SDL Was able to load image to the screen\n");
-  return success;
-
-}
-
-
-void close(){
-
-  /* We clean up the surface of the screen */
-  globalTexture.destroy();
-
-
-  /* Destroy the window */
-  SDL_DestroyRenderer( renderer );
-  renderer = nullptr;
-  SDL_DestroyWindow( window );
-  window = nullptr;
-
-
-  /* I think "Quit" should be self explanatory enough right??? */
-  SDL_Quit();
-
-}
-
-
-int main( int argc, char* args[]){
-
-  /* We initialize a final exit code */
-  int exitCode{ 0 };
-
-
-  if ( init() == false ){
-
-    SDL_Log(" Unable to initialize the program \n ");
-    exitCode = 1; 
-    return 0;
-
-  };
-
-  if ( loadMedia() == false ){
-
-    SDL_Log(" Unable to load media on the the screen \n ");
-    exitCode = 2;
-    return 0;
-
-  };
-
-  bool quit{ false };
-  SDL_Event e;
-  SDL_zero( e );
-
-  while ( quit == false ){
-
-    while ( SDL_PollEvent( &e ) == true ){ 
-
-      if ( e.type == SDL_EVENT_QUIT ){
-
-        quit = true;
-
-      } 
-
+    if (!SDL_Init(SDL_INIT_VIDEO)) {
+        SDL_Log("Couldn't initialize SDL: %s", SDL_GetError());
+        return SDL_APP_FAILURE;
     }
-    
 
-    //Fill the background white
-    SDL_SetRenderDrawColor( renderer, 0xFF, 0xFF, 0xFF, 0xFF );
-    SDL_RenderClear( renderer );
+    if (!SDL_CreateWindowAndRenderer("examples/renderer/rectangles", WINDOW_WIDTH, WINDOW_HEIGHT, SDL_WINDOW_RESIZABLE, &window, &renderer)) {
+        SDL_Log("Couldn't create window/renderer: %s", SDL_GetError());
+        return SDL_APP_FAILURE;
+    }
+    SDL_SetRenderLogicalPresentation(renderer, WINDOW_WIDTH, WINDOW_HEIGHT, SDL_LOGICAL_PRESENTATION_LETTERBOX);
 
-    //Render image on screen
-    globalTexture.render( 0.f, 0.f );
-
-    //Update screen
-    SDL_RenderPresent( renderer );
-  }
-
-
-close();
-return exitCode;
-
+    return SDL_APP_CONTINUE;  /* carry on with the program! */
 }
 
+/* This function runs when a new event (mouse input, keypresses, etc) occurs. */
+SDL_AppResult SDL_AppEvent(void *appstate, SDL_Event *event)
+{
+    if (event->type == SDL_EVENT_QUIT) {
+        return SDL_APP_SUCCESS;  /* end the program, reporting success to the OS. */
+    }
+    return SDL_APP_CONTINUE;  /* carry on with the program! */
+}
+
+/* This function runs once per frame, and is the heart of the program. */
+SDL_AppResult SDL_AppIterate(void *appstate)
+{
+    SDL_FRect rects[16];
+    const Uint64 now = SDL_GetTicks();
+    int i;
+
+    /* we'll have the rectangles grow and shrink over a few seconds. */
+    const float direction = ((now % 2000) >= 1000) ? 1.0f : -1.0f;
+    const float scale = ((float) (((int) (now % 1000)) - 500) / 500.0f) * direction;
+
+    /* as you can see from this, rendering draws over whatever was drawn before it. */
+    SDL_SetRenderDrawColor(renderer, 0, 0, 0, SDL_ALPHA_OPAQUE);  /* black, full alpha */
+    SDL_RenderClear(renderer);  /* start with a blank canvas. */
+
+    /* Rectangles are comprised of set of X and Y coordinates, plus width and
+       height. (0, 0) is the top left of the window, and larger numbers go
+       down and to the right. This isn't how geometry works, but this is
+       pretty standard in 2D graphics. */
+
+    /* Let's draw a single rectangle (square, really). */
+    rects[0].x = rects[0].y = 100;
+    rects[0].w = rects[0].h = 100 + (100 * scale);
+    SDL_SetRenderDrawColor(renderer, 255, 0, 0, SDL_ALPHA_OPAQUE);  /* red, full alpha */
+    SDL_RenderRect(renderer, &rects[0]);
+
+    /* Now let's draw several rectangles with one function call. */
+    for (i = 0; i < 3; i++) {
+        const float size = (i+1) * 50.0f;
+        rects[i].w = rects[i].h = size + (size * scale);
+        rects[i].x = (WINDOW_WIDTH - rects[i].w) / 2;  /* center it. */
+        rects[i].y = (WINDOW_HEIGHT - rects[i].h) / 2;  /* center it. */
+    }
+    SDL_SetRenderDrawColor(renderer, 0, 255, 0, SDL_ALPHA_OPAQUE);  /* green, full alpha */
+    SDL_RenderRects(renderer, rects, 3);  /* draw three rectangles at once */
+
+    /* those were rectangle _outlines_, really. You can also draw _filled_ rectangles! */
+    rects[0].x = 400;
+    rects[0].y = 50;
+    rects[0].w = 100 + (100 * scale);
+    rects[0].h = 50 + (50 * scale);
+    SDL_SetRenderDrawColor(renderer, 0, 0, 255, SDL_ALPHA_OPAQUE);  /* blue, full alpha */
+    SDL_RenderFillRect(renderer, &rects[0]);
+
+    /* ...and also fill a bunch of rectangles at once... */
+    for (i = 0; i < SDL_arraysize(rects); i++) {
+        const float w = (float) (WINDOW_WIDTH / SDL_arraysize(rects));
+        const float h = i * 8.0f;
+        rects[i].x = i * w;
+        rects[i].y = WINDOW_HEIGHT - h;
+        rects[i].w = w;
+        rects[i].h = h;
+    }
+    SDL_SetRenderDrawColor(renderer, 255, 255, 255, SDL_ALPHA_OPAQUE);  /* white, full alpha */
+    SDL_RenderFillRects(renderer, rects, SDL_arraysize(rects));
+
+    SDL_RenderPresent(renderer);  /* put it all on the screen! */
+
+    return SDL_APP_CONTINUE;  /* carry on with the program! */
+}
+
+/* This function runs once at shutdown. */
+void SDL_AppQuit(void *appstate, SDL_AppResult result)
+{
+    /* SDL will clean up the window/renderer for us. */
+}

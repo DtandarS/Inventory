@@ -9158,3 +9158,615 @@ events:
       CMAKE_MODULE_PATH:
         - "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL_image/cmake"
 ...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:23 (find_library)"
+    mode: "library"
+    variable: "UIKIT_FRAMEWORK"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "UIKit"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+    searched_directories:
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "src/lib/SDL/cmake/sdlcompilers.cmake:173 (check_c_source_compiles)"
+      - "src/lib/SDL/CMakeLists.txt:700 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_MMX"
+    directories:
+      source: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-wHUb2d"
+      binary: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-wHUb2d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64;x86_64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "iphoneos"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_MMX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-wHUb2d'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_87d2f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_87d2f.dir/build.make CMakeFiles/cmTC_87d2f.dir/build
+        Building C object CMakeFiles/cmTC_87d2f.dir/src.c.o
+        /usr/bin/cc -DCOMPILER_SUPPORTS_MMX  -D_GNU_SOURCE=1 -mmmx -arch arm64 -arch x86_64 -isysroot iphoneos -fPIE -MD -MT CMakeFiles/cmTC_87d2f.dir/src.c.o -MF CMakeFiles/cmTC_87d2f.dir/src.c.o.d -o CMakeFiles/cmTC_87d2f.dir/src.c.o -c /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-wHUb2d/src.c
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        Linking C executable cmTC_87d2f
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87d2f.dir/link.txt --verbose=1
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        ld: library 'System' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        /usr/bin/cc   -D_GNU_SOURCE=1 -mmmx -arch arm64 -arch x86_64 -isysroot iphoneos -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_87d2f.dir/src.c.o -o cmTC_87d2f
+        make[2]: *** [cmTC_87d2f] Error 1
+        make[1]: *** [cmTC_87d2f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "src/lib/SDL/cmake/sdlcompilers.cmake:173 (check_c_source_compiles)"
+      - "src/lib/SDL/CMakeLists.txt:721 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE"
+    directories:
+      source: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-dY9PII"
+      binary: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-dY9PII"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64;x86_64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "iphoneos"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-dY9PII'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0e126/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0e126.dir/build.make CMakeFiles/cmTC_0e126.dir/build
+        Building C object CMakeFiles/cmTC_0e126.dir/src.c.o
+        /usr/bin/cc -DCOMPILER_SUPPORTS_SSE  -D_GNU_SOURCE=1 -msse -arch arm64 -arch x86_64 -isysroot iphoneos -fPIE -MD -MT CMakeFiles/cmTC_0e126.dir/src.c.o -MF CMakeFiles/cmTC_0e126.dir/src.c.o.d -o CMakeFiles/cmTC_0e126.dir/src.c.o -c /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-dY9PII/src.c
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        In file included from /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-dY9PII/src.c:12:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/xmmintrin.h:31:
+        /Library/Developer/CommandLineTools/usr/lib/clang/17/include/mm_malloc.h:13:10: fatal error: 'stdlib.h' file not found
+           13 | #include <stdlib.h>
+              |          ^~~~~~~~~~
+        1 error generated.
+        make[2]: *** [CMakeFiles/cmTC_0e126.dir/src.c.o] Error 1
+        make[1]: *** [cmTC_0e126/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "src/lib/SDL/cmake/sdlcompilers.cmake:173 (check_c_source_compiles)"
+      - "src/lib/SDL/CMakeLists.txt:742 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE2"
+    directories:
+      source: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-I6JS0K"
+      binary: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-I6JS0K"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64;x86_64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "iphoneos"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE2"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-I6JS0K'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bda2f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bda2f.dir/build.make CMakeFiles/cmTC_bda2f.dir/build
+        Building C object CMakeFiles/cmTC_bda2f.dir/src.c.o
+        /usr/bin/cc -DCOMPILER_SUPPORTS_SSE2  -D_GNU_SOURCE=1 -msse2 -arch arm64 -arch x86_64 -isysroot iphoneos -fPIE -MD -MT CMakeFiles/cmTC_bda2f.dir/src.c.o -MF CMakeFiles/cmTC_bda2f.dir/src.c.o.d -o CMakeFiles/cmTC_bda2f.dir/src.c.o -c /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-I6JS0K/src.c
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        In file included from /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-I6JS0K/src.c:12:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/emmintrin.h:17:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/xmmintrin.h:31:
+        /Library/Developer/CommandLineTools/usr/lib/clang/17/include/mm_malloc.h:13:10: fatal error: 'stdlib.h' file not found
+           13 | #include <stdlib.h>
+              |          ^~~~~~~~~~
+        1 error generated.
+        make[2]: *** [CMakeFiles/cmTC_bda2f.dir/src.c.o] Error 1
+        make[1]: *** [cmTC_bda2f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "src/lib/SDL/cmake/sdlcompilers.cmake:173 (check_c_source_compiles)"
+      - "src/lib/SDL/CMakeLists.txt:763 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE3"
+    directories:
+      source: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-rNy02N"
+      binary: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-rNy02N"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64;x86_64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "iphoneos"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE3"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-rNy02N'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1a203/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1a203.dir/build.make CMakeFiles/cmTC_1a203.dir/build
+        Building C object CMakeFiles/cmTC_1a203.dir/src.c.o
+        /usr/bin/cc -DCOMPILER_SUPPORTS_SSE3  -D_GNU_SOURCE=1 -msse3 -arch arm64 -arch x86_64 -isysroot iphoneos -fPIE -MD -MT CMakeFiles/cmTC_1a203.dir/src.c.o -MF CMakeFiles/cmTC_1a203.dir/src.c.o.d -o CMakeFiles/cmTC_1a203.dir/src.c.o -c /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-rNy02N/src.c
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        In file included from /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-rNy02N/src.c:12:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/pmmintrin.h:17:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/emmintrin.h:17:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/xmmintrin.h:31:
+        /Library/Developer/CommandLineTools/usr/lib/clang/17/include/mm_malloc.h:13:10: fatal error: 'stdlib.h' file not found
+           13 | #include <stdlib.h>
+              |          ^~~~~~~~~~
+        1 error generated.
+        make[2]: *** [CMakeFiles/cmTC_1a203.dir/src.c.o] Error 1
+        make[1]: *** [cmTC_1a203/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "src/lib/SDL/cmake/sdlcompilers.cmake:173 (check_c_source_compiles)"
+      - "src/lib/SDL/CMakeLists.txt:784 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_1"
+    directories:
+      source: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-j9mep6"
+      binary: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-j9mep6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64;x86_64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "iphoneos"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_1"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-j9mep6'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a31b7/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a31b7.dir/build.make CMakeFiles/cmTC_a31b7.dir/build
+        Building C object CMakeFiles/cmTC_a31b7.dir/src.c.o
+        /usr/bin/cc -DCOMPILER_SUPPORTS_SSE4_1  -D_GNU_SOURCE=1 -msse4.1 -arch arm64 -arch x86_64 -isysroot iphoneos -fPIE -MD -MT CMakeFiles/cmTC_a31b7.dir/src.c.o -MF CMakeFiles/cmTC_a31b7.dir/src.c.o.d -o CMakeFiles/cmTC_a31b7.dir/src.c.o -c /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-j9mep6/src.c
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        In file included from /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-j9mep6/src.c:12:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/smmintrin.h:17:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/tmmintrin.h:17:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/pmmintrin.h:17:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/emmintrin.h:17:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/xmmintrin.h:31:
+        /Library/Developer/CommandLineTools/usr/lib/clang/17/include/mm_malloc.h:13:10: fatal error: 'stdlib.h' file not found
+           13 | #include <stdlib.h>
+              |          ^~~~~~~~~~
+        1 error generated.
+        make[2]: *** [CMakeFiles/cmTC_a31b7.dir/src.c.o] Error 1
+        make[1]: *** [cmTC_a31b7/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "src/lib/SDL/cmake/sdlcompilers.cmake:173 (check_c_source_compiles)"
+      - "src/lib/SDL/CMakeLists.txt:805 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_2"
+    directories:
+      source: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-3KAMiT"
+      binary: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-3KAMiT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64;x86_64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "iphoneos"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_2"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-3KAMiT'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3d064/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3d064.dir/build.make CMakeFiles/cmTC_3d064.dir/build
+        Building C object CMakeFiles/cmTC_3d064.dir/src.c.o
+        /usr/bin/cc -DCOMPILER_SUPPORTS_SSE4_2  -D_GNU_SOURCE=1 -msse4.2 -arch arm64 -arch x86_64 -isysroot iphoneos -fPIE -MD -MT CMakeFiles/cmTC_3d064.dir/src.c.o -MF CMakeFiles/cmTC_3d064.dir/src.c.o.d -o CMakeFiles/cmTC_3d064.dir/src.c.o -c /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-3KAMiT/src.c
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        In file included from /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-3KAMiT/src.c:12:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/nmmintrin.h:19:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/smmintrin.h:17:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/tmmintrin.h:17:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/pmmintrin.h:17:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/emmintrin.h:17:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/xmmintrin.h:31:
+        /Library/Developer/CommandLineTools/usr/lib/clang/17/include/mm_malloc.h:13:10: fatal error: 'stdlib.h' file not found
+           13 | #include <stdlib.h>
+              |          ^~~~~~~~~~
+        1 error generated.
+        make[2]: *** [CMakeFiles/cmTC_3d064.dir/src.c.o] Error 1
+        make[1]: *** [cmTC_3d064/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "src/lib/SDL/cmake/sdlcompilers.cmake:173 (check_c_source_compiles)"
+      - "src/lib/SDL/CMakeLists.txt:823 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX"
+    directories:
+      source: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-PMpz85"
+      binary: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-PMpz85"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64;x86_64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "iphoneos"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-PMpz85'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b6399/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b6399.dir/build.make CMakeFiles/cmTC_b6399.dir/build
+        Building C object CMakeFiles/cmTC_b6399.dir/src.c.o
+        /usr/bin/cc -DCOMPILER_SUPPORTS_AVX  -D_GNU_SOURCE=1 -mavx -arch arm64 -arch x86_64 -isysroot iphoneos -fPIE -MD -MT CMakeFiles/cmTC_b6399.dir/src.c.o -MF CMakeFiles/cmTC_b6399.dir/src.c.o.d -o CMakeFiles/cmTC_b6399.dir/src.c.o -c /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-PMpz85/src.c
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        In file included from /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-PMpz85/src.c:12:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/immintrin.h:24:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/xmmintrin.h:31:
+        /Library/Developer/CommandLineTools/usr/lib/clang/17/include/mm_malloc.h:13:10: fatal error: 'stdlib.h' file not found
+           13 | #include <stdlib.h>
+              |          ^~~~~~~~~~
+        1 error generated.
+        make[2]: *** [CMakeFiles/cmTC_b6399.dir/src.c.o] Error 1
+        make[1]: *** [cmTC_b6399/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "src/lib/SDL/cmake/sdlcompilers.cmake:173 (check_c_source_compiles)"
+      - "src/lib/SDL/CMakeLists.txt:844 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX2"
+    directories:
+      source: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-6GxhEL"
+      binary: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-6GxhEL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64;x86_64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "iphoneos"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX2"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-6GxhEL'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d53ff/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d53ff.dir/build.make CMakeFiles/cmTC_d53ff.dir/build
+        Building C object CMakeFiles/cmTC_d53ff.dir/src.c.o
+        /usr/bin/cc -DCOMPILER_SUPPORTS_AVX2  -D_GNU_SOURCE=1 -mavx2 -arch arm64 -arch x86_64 -isysroot iphoneos -fPIE -MD -MT CMakeFiles/cmTC_d53ff.dir/src.c.o -MF CMakeFiles/cmTC_d53ff.dir/src.c.o.d -o CMakeFiles/cmTC_d53ff.dir/src.c.o -c /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-6GxhEL/src.c
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        In file included from /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-6GxhEL/src.c:12:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/immintrin.h:24:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/xmmintrin.h:31:
+        /Library/Developer/CommandLineTools/usr/lib/clang/17/include/mm_malloc.h:13:10: fatal error: 'stdlib.h' file not found
+           13 | #include <stdlib.h>
+              |          ^~~~~~~~~~
+        1 error generated.
+        make[2]: *** [CMakeFiles/cmTC_d53ff.dir/src.c.o] Error 1
+        make[1]: *** [cmTC_d53ff/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "src/lib/SDL/cmake/sdlcompilers.cmake:173 (check_c_source_compiles)"
+      - "src/lib/SDL/CMakeLists.txt:865 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX512F"
+    directories:
+      source: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-uTTPYy"
+      binary: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-uTTPYy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64;x86_64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "iphoneos"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX512F"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-uTTPYy'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_86585/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_86585.dir/build.make CMakeFiles/cmTC_86585.dir/build
+        Building C object CMakeFiles/cmTC_86585.dir/src.c.o
+        /usr/bin/cc -DCOMPILER_SUPPORTS_AVX512F  -D_GNU_SOURCE=1 -mavx512f -arch arm64 -arch x86_64 -isysroot iphoneos -fPIE -MD -MT CMakeFiles/cmTC_86585.dir/src.c.o -MF CMakeFiles/cmTC_86585.dir/src.c.o.d -o CMakeFiles/cmTC_86585.dir/src.c.o -c /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-uTTPYy/src.c
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        clang: warning: no such sysroot directory: 'iphoneos' [-Wmissing-sysroot]
+        In file included from /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/CMakeScratch/TryCompile-uTTPYy/src.c:12:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/immintrin.h:24:
+        In file included from /Library/Developer/CommandLineTools/usr/lib/clang/17/include/xmmintrin.h:31:
+        /Library/Developer/CommandLineTools/usr/lib/clang/17/include/mm_malloc.h:13:10: fatal error: 'stdlib.h' file not found
+           13 | #include <stdlib.h>
+              |          ^~~~~~~~~~
+        1 error generated.
+        make[2]: *** [CMakeFiles/cmTC_86585.dir/src.c.o] Error 1
+        make[1]: *** [cmTC_86585/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:23 (find_package)"
+    name: "SDL3"
+    configs:
+      -
+        filename: "SDL3Config.cmake"
+        kind: "cmake"
+      -
+        filename: "sdl3-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SDL3"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/pkgRedirects/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/pkgRedirects/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/lib/cmake/SDL3/SDL3Config.cmake"
+      mode: "config"
+      version: "3.2.16"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+...

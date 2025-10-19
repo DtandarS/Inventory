@@ -1,5 +1,5 @@
-CMakeFiles/main.dir/src/main.cpp.o: \
-  /Users/hibiki/Documents/GitHub/Inventory/src/main.cpp \
+CMakeFiles/main.dir/src/main.mm.o: \
+  /Users/hibiki/Documents/GitHub/Inventory/src/main.mm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -995,7 +995,6 @@ CMakeFiles/main.dir/src/main.cpp.o: \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_version.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_oldnames.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_main.h \
-  /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_main_impl.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL_image/include/SDL3_image/SDL_image.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/headers.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/window.h

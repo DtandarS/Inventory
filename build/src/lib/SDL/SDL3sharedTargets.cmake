@@ -61,7 +61,7 @@ set_target_properties(SDL3::SDL3-shared PROPERTIES
 # Import target "SDL3::SDL3-shared" for configuration ""
 set_property(TARGET SDL3::SDL3-shared APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(SDL3::SDL3-shared PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/Users/hibiki/Documents/GitHub/Inventory/build/libSDL3.0.dylib"
+  IMPORTED_LOCATION_NOCONFIG "/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/libSDL3.0.dylib"
   IMPORTED_SONAME_NOCONFIG "@rpath/libSDL3.0.dylib"
   )
 

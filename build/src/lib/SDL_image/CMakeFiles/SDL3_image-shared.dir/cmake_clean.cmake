@@ -1,8 +1,4 @@
 file(REMOVE_RECURSE
-  "../../../libSDL3_image.0.3.0.dylib"
-  "../../../libSDL3_image.0.dylib"
-  "../../../libSDL3_image.dylib"
-  "../../../libSDL3_image.pdb"
   ".0"
   "CMakeFiles/SDL3_image-shared.dir/src/IMG.c.o"
   "CMakeFiles/SDL3_image-shared.dir/src/IMG.c.o.d"
@@ -54,6 +50,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/SDL3_image-shared.dir/src/IMG_xv.c.o.d"
   "CMakeFiles/SDL3_image-shared.dir/src/xmlman.c.o"
   "CMakeFiles/SDL3_image-shared.dir/src/xmlman.c.o.d"
+  "libSDL3_image.0.3.0.dylib"
+  "libSDL3_image.0.dylib"
+  "libSDL3_image.dylib"
+  "libSDL3_image.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

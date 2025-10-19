@@ -9,6 +9,8 @@
 
 
 #include "window.h"
+#include <SDL3/SDL_system.h>
+
 
 
 

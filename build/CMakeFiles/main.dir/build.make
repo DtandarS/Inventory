@@ -95,8 +95,8 @@ main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/src/main.cpp.o
 main: CMakeFiles/main.dir/build.make
-main: libSDL3_image.0.3.0.dylib
-main: libSDL3.0.dylib
+main: src/lib/SDL_image/libSDL3_image.0.3.0.dylib
+main: src/lib/SDL/libSDL3.0.dylib
 main: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/dynapi/SDL_dynapi.sym
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"

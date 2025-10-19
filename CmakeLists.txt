@@ -2,55 +2,60 @@ cmake_minimum_required(VERSION 3.14.0)
 
 
 # ---------------------------------- #
+
+
 project(
 
 Inventorio
 
 )
-# ---------------------------------- #
 
 
 # ---------------------------------- #
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
-# ---------------------------------- #
+
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_OSX_NAME iOS)
+set(DCMAKE_OSX_DEPLOYMENT_TARGET 26.0)
 
 
 # ---------------------------------- #
+
+
 add_subdirectory(
 
 src/lib/SDL/
 EXCLUDE_FROM_ALL
 
 )
-# ---------------------------------- #
 
 
 # ---------------------------------- #
+
+
 add_subdirectory(
 
 src/lib/SDL_image/
 EXCLUDE_FROM_ALL
 
 )
-# ---------------------------------- #
 
 
 # ---------------------------------- #
+
+
 add_executable(
 
 main 
 
 src/main.cpp
-src/lib/headers.h
 
 )
-# ---------------------------------- #
-
-
 
 
 # ---------------------------------- #
+
+
 target_include_directories(
 
 main 
@@ -61,10 +66,11 @@ src/lib/SDL/include/SDL3/
 src/lib/SDL_image/include/SDL3_image/
 
 )
-# ---------------------------------- #
 
 
 # ---------------------------------- #
+
+
 target_link_libraries(
 
 main 
@@ -74,6 +80,8 @@ SDL3::SDL3
 SDL3_image::SDL3_image 
 
 )
+
+
 # ---------------------------------- #
 
 
