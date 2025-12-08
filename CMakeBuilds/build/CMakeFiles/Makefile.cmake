@@ -7,9 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/hibiki/Documents/GitHub/Inventory/.git/HEAD"
-  "/Users/hibiki/Documents/GitHub/Inventory/.git/refs/heads/build"
-  "/Users/hibiki/Documents/GitHub/Inventory/CMakeLists.txt"
   "CMakeFiles/4.1.0/CMakeCCompiler.cmake"
   "CMakeFiles/4.1.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.1.0/CMakeOBJCCompiler.cmake"
@@ -18,6 +15,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/cmake.verify_globs"
   "src/lib/SDL/CMakeFiles/SDL_build_config.h.intermediate"
   "src/lib/SDL/CMakeFiles/git-data/grabRef.cmake"
+  "/Users/hibiki/Documents/GitHub/Inventory/CMakeLists.txt"
+  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL-image/CMakeLists.txt"
+  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL-image/cmake/GetGitRevisionDescription.cmake"
+  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL-image/cmake/PrivateSdlFunctions.cmake"
+  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL-image/cmake/sdlcpu.cmake"
+  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL-image/cmake/sdlmanpages.cmake"
+  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL-image/cmake/sdlplatform.cmake"
+  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/.git/HEAD"
+  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/.git/refs/heads/main"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/CMakeLists.txt"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/cmake/3rdparty.cmake"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/cmake/FindLibUSB.cmake"
@@ -36,12 +42,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/cmake/sdlplatform.cmake"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/build_config/SDL_build_config.h.cmake"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/build_config/SDL_revision.h.cmake"
-  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL_image/CMakeLists.txt"
-  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL_image/cmake/GetGitRevisionDescription.cmake"
-  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL_image/cmake/PrivateSdlFunctions.cmake"
-  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL_image/cmake/sdlcpu.cmake"
-  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL_image/cmake/sdlmanpages.cmake"
-  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL_image/cmake/sdlplatform.cmake"
   "/opt/homebrew/lib/cmake/libavif/libavif-config-release.cmake"
   "/opt/homebrew/lib/cmake/libavif/libavif-config-version.cmake"
   "/opt/homebrew/lib/cmake/libavif/libavif-config.cmake"
@@ -139,14 +139,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/lib/SDL/SDL3ConfigVersion.cmake"
   "src/lib/SDL/include-config-/build_config/SDL_build_config.h"
   "src/lib/SDL/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/lib/SDL_image/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/lib/SDL-image/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/Inventory.dir/DependInfo.cmake"
   "src/lib/SDL/CMakeFiles/SDL3-shared.dir/DependInfo.cmake"
   "src/lib/SDL/CMakeFiles/SDL3_test.dir/DependInfo.cmake"
   "src/lib/SDL/CMakeFiles/SDL_uclibc.dir/DependInfo.cmake"
-  "src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/DependInfo.cmake"
+  "src/lib/SDL-image/CMakeFiles/SDL3_image-shared.dir/DependInfo.cmake"
   )

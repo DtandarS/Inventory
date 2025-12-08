@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/hibiki/Documents/GitHub/Inventory
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hibiki/Documents/GitHub/Inventory/build
+CMAKE_BINARY_DIR = /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build
 
 # Include any dependencies generated for this target.
 include src/lib/SDL/CMakeFiles/SDL_uclibc.dir/depend.make
@@ -75,352 +75,352 @@ src/lib/SDL/CMakeFiles/SDL_uclibc.dir/codegen:
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_atan2.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_atan2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_atan2.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_atan2.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_atan2.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_atan2.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_atan2.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_exp.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_exp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_exp.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_exp.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_exp.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_exp.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_exp.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_fmod.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_fmod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_fmod.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_fmod.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_fmod.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_fmod.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_fmod.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_log.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_log.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_log.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_log.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_log.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_log.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_log10.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_log10.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_log10.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_log10.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_log10.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_log10.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_log10.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_pow.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_pow.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_pow.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_pow.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_pow.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_pow.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_pow.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_rem_pio2.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_rem_pio2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_rem_pio2.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_rem_pio2.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_rem_pio2.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_rem_pio2.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_rem_pio2.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_sqrt.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_sqrt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_sqrt.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_sqrt.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_sqrt.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_sqrt.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/e_sqrt.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_cos.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_cos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_cos.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_cos.c > CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_cos.c > CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_cos.c -o CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_cos.c -o CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_rem_pio2.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_rem_pio2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_rem_pio2.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_rem_pio2.c > CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_rem_pio2.c > CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_rem_pio2.c -o CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_rem_pio2.c -o CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_sin.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_sin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_sin.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_sin.c > CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_sin.c > CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_sin.c -o CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_sin.c -o CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_tan.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_tan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_tan.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_tan.c > CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_tan.c > CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_tan.c -o CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/k_tan.c -o CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_atan.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_atan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_atan.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_atan.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_atan.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_atan.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_atan.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_copysign.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_copysign.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_copysign.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_copysign.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_copysign.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_copysign.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_copysign.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_cos.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_cos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_cos.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_cos.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_cos.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_cos.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_cos.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_fabs.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_fabs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_fabs.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_fabs.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_fabs.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_fabs.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_fabs.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_floor.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_floor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_floor.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_floor.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_floor.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_floor.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_floor.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isinf.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isinf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isinf.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isinf.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isinf.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isinf.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isinf.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isinff.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isinff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isinff.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isinff.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isinff.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isinff.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isinff.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isnan.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isnan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isnan.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isnan.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isnan.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isnan.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isnan.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isnanf.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isnanf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isnanf.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isnanf.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isnanf.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isnanf.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_isnanf.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_modf.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_modf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_modf.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_modf.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_modf.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_modf.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_modf.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_scalbn.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_scalbn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_scalbn.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_scalbn.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_scalbn.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_scalbn.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_scalbn.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_sin.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_sin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_sin.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_sin.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_sin.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_sin.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_sin.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.s
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o: /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_tan.c
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_tan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o -c /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_tan.c
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.i"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_tan.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.i
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_tan.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.i
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.s"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_tan.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.s
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/libm/s_tan.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.s
 
 # Object files for target SDL_uclibc
 SDL_uclibc_OBJECTS = \
@@ -480,19 +480,19 @@ src/lib/SDL/libSDL_uclibc.a: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_si
 src/lib/SDL/libSDL_uclibc.a: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o
 src/lib/SDL/libSDL_uclibc.a: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/build.make
 src/lib/SDL/libSDL_uclibc.a: src/lib/SDL/CMakeFiles/SDL_uclibc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C static library libSDL_uclibc.a"
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && $(CMAKE_COMMAND) -P CMakeFiles/SDL_uclibc.dir/cmake_clean_target.cmake
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL_uclibc.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C static library libSDL_uclibc.a"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && $(CMAKE_COMMAND) -P CMakeFiles/SDL_uclibc.dir/cmake_clean_target.cmake
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL_uclibc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/build: src/lib/SDL/libSDL_uclibc.a
 .PHONY : src/lib/SDL/CMakeFiles/SDL_uclibc.dir/build
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/clean:
-	cd /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL && $(CMAKE_COMMAND) -P CMakeFiles/SDL_uclibc.dir/cmake_clean.cmake
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL && $(CMAKE_COMMAND) -P CMakeFiles/SDL_uclibc.dir/cmake_clean.cmake
 .PHONY : src/lib/SDL/CMakeFiles/SDL_uclibc.dir/clean
 
 src/lib/SDL/CMakeFiles/SDL_uclibc.dir/depend:
-	cd /Users/hibiki/Documents/GitHub/Inventory/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hibiki/Documents/GitHub/Inventory /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL /Users/hibiki/Documents/GitHub/Inventory/build /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL_uclibc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hibiki/Documents/GitHub/Inventory /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL/CMakeFiles/SDL_uclibc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/lib/SDL/CMakeFiles/SDL_uclibc.dir/depend
 

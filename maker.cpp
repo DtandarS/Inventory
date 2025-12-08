@@ -1,3 +1,4 @@
+
 //
 //  maker.cpp
 //  Inventory
@@ -5,77 +6,102 @@
 //  Created by Tom Naksutti on 21.10.2025.
 //
 
-/*
-  Copyright (C) 1997-2025 Sam Lantinga <slouken@libsdl.org>
+#define SDL_MAIN_USE_CALLBACKS 1 
+#include <master.h>
 
-  This software is provided 'as-is', without any express or implied
-  warranty.  In no event will the authors be held liable for any damages
-  arising from the use of this software.
+using namespace std;
 
-  Permission is granted to anyone to use this software for any purpose,
-  including commercial applications, and to alter it and redistribute it
-  freely.
-*/
-#define SDL_MAIN_USE_CALLBACKS 1  /* use the callbacks instead of main() */
-#include <SDL3/SDL.h>
-#include <SDL3/SDL_main.h>
+#define WIDTH 600
+#define HEIGHT 800
 
-#define WINDOW_WIDTH 600
-#define WINDOW_HEIGHT 800
+static SDL_Window *window = { nullptr };
+static SDL_Renderer *renderer = { nullptr };
+static SDL_Surface *surface = { nullptr };
+static SDL_Texture *texture = { nullptr };
+static int texture_width = 0;
+static int texture_height = 0;
+int x = 1;
 
-static SDL_Window *window = {nullptr};
-static SDL_Renderer *renderer = {nullptr};
-static SDL_Surface *surface = {nullptr};
-
-/* This function runs once at startup. */
 SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
 {
-    /* Create the window */
-    if (!SDL_CreateWindowAndRenderer("Hello World", WINDOW_HEIGHT, WINDOW_WIDTH, SDL_WINDOW_FULLSCREEN, &window, &renderer)) {
-        SDL_Log("Couldn't create window and renderer: %s", SDL_GetError());
-        return SDL_APP_FAILURE;
-    }
-    return SDL_APP_CONTINUE;
+
+  SDL_Surface *surface = NULL;
+  char *path;
+
+  SDL_SetAppMetadata("tomsan chilli huone", "1.0", "meow");
+
+  if (!SDL_Init(SDL_INIT_VIDEO))
+  {
+    SDL_Log("couldn't initialize SDL's video module %s \n", SDL_GetError());
+    return SDL_APP_FAILURE;
+  }
+  
+  if (!SDL_CreateWindowAndRenderer("I went insane", HEIGHT, WIDTH, SDL_WINDOW_RESIZABLE, &window, &renderer))
+  {
+    SDL_Log("Couldn't create SDL window. SDL_Error %s \n", SDL_GetError());
+    return SDL_APP_FAILURE;
+  }
+
+  SDL_SetRenderLogicalPresentation(renderer, WIDTH, HEIGHT, SDL_LOGICAL_PRESENTATION_LETTERBOX);
+
+  SDL_asprintf(&path, "%simages/kenma3.jpg", SDL_GetBasePath());
+  surface = IMG_Load(path);
+  if (!surface)
+  {
+    SDL_Log("SDL couldn't load the image on to the surface %s \n", SDL_GetError());
+    return SDL_APP_FAILURE;
+  }
+
+  SDL_free(path);
+
+  texture_width = surface->w;
+  texture_height = surface->h;
+
+  texture = SDL_CreateTextureFromSurface(renderer, surface);
+  if (!texture)
+  {
+    SDL_Log("SDL couldn't render image to the surface %s \n", SDL_GetError());
+    return SDL_APP_FAILURE;
+  }
+
+  SDL_DestroySurface(surface);
+  return SDL_APP_CONTINUE;
+
 }
 
-/* This function runs when a new event (mouse input, keypresses, etc) occurs. */
 SDL_AppResult SDL_AppEvent(void *appstate, SDL_Event *event)
 {
-    if (event->type == SDL_EVENT_KEY_DOWN ||
-        event->type == SDL_EVENT_QUIT) {
+    if (event->type == SDL_EVENT_QUIT) {
         return SDL_APP_SUCCESS;  /* end the program, reporting success to the OS. */
     }
-    return SDL_APP_CONTINUE;
+    return SDL_APP_CONTINUE;  /* carry on with the program! */
 }
 
-/* This function runs once per frame, and is the heart of the program. */
 SDL_AppResult SDL_AppIterate(void *appstate)
 {
-    const char *message = "Hello World!";
-    int w = 0, h = 0;
-    float x, y;
-    const float scale = 4.0f;
 
-    /* Center the message and scale it up */
-    SDL_GetRenderOutputSize(renderer, &w, &h);
-    SDL_SetRenderScale(renderer, scale, scale);
-    x = ((w / scale) - SDL_DEBUG_TEXT_FONT_CHARACTER_SIZE * SDL_strlen(message)) / 2;
-    y = ((h / scale) - SDL_DEBUG_TEXT_FONT_CHARACTER_SIZE) / 2;
+  SDL_FRect dst_rect;
+  const Uint64 now = SDL_GetTicks();
 
-    /* Draw the message */
-    SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
-    SDL_RenderClear(renderer);
-    SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
-    SDL_RenderDebugText(renderer, x, y, message);
-    SDL_RenderPresent(renderer);
+  SDL_SetRenderDrawColor(renderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
+  SDL_RenderClear(renderer);
 
-    return SDL_APP_CONTINUE;
+  /* center this one. */
+  dst_rect.x = ((float) (WIDTH - texture_width)) / 2.0f;
+  dst_rect.y = ((float) (HEIGHT - texture_height)) / 2.0f;
+  dst_rect.w = (float) texture_width;
+  dst_rect.h = (float) texture_height;
+  SDL_RenderTexture(renderer, texture, NULL, &dst_rect);
+
+  SDL_RenderPresent(renderer);
+
+  return SDL_APP_CONTINUE;
+
 }
 
-/* This function runs once at shutdown. */
 void SDL_AppQuit(void *appstate, SDL_AppResult result)
 {
+
+  SDL_DestroyTexture(texture);
+
 }
-
-
-

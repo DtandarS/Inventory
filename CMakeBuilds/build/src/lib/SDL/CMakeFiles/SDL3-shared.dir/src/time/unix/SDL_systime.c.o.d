@@ -1,8 +1,8 @@
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o: \
-  /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c \
-  /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
+  /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c \
+  /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/SDL_internal.h \
-  /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/include-config-/build_config/SDL_build_config.h \
+  /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL/include-config-/build_config/SDL_build_config.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_platform_defines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \
@@ -172,7 +172,6 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_stdinc.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
@@ -240,6 +239,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o: \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_main.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/SDL_utils_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/SDL_hashtable.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/SDKSettings.json \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/time/unix/SDL_systime.c \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/time/unix/../SDL_time_c.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
@@ -253,7 +253,6 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h \
@@ -282,6 +281,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/mach_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/host_info.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/vm_statistics.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/os/base.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/time_value.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/host_notify.h \
@@ -349,11 +349,11 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/mach_port.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/mach_init.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/mach_traps.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/error.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/mach_host.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/thread_switch.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/rpc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/rpc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/arm/rpc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/mach_error.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/error.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/mach_time.h

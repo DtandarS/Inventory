@@ -1,1 +1,0 @@
-/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/main.dir/src/main.cpp.o -o main  -Wl,-rpath,/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL_image -Wl,-rpath,/Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL src/lib/SDL_image/libSDL3_image.0.3.0.dylib src/lib/SDL/libSDL3.0.dylib

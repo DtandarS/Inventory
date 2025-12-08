@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/hibiki/Documents/GitHub/Inventory
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hibiki/Documents/GitHub/Inventory/build
+CMAKE_BINARY_DIR = /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles /Users/hibiki/Documents/GitHub/Inventory/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -113,22 +113,22 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named Inventory
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+Inventory: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Inventory
+.PHONY : Inventory
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+Inventory/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inventory.dir/build.make CMakeFiles/Inventory.dir/build
+.PHONY : Inventory/fast
 
 #=============================================================================
 # Target rules for targets named SDL3-shared
@@ -179,32 +179,32 @@ SDL3_image-shared: cmake_check_build_system
 
 # fast build rule for target.
 SDL3_image-shared/fast:
-	$(MAKE) $(MAKESILENT) -f src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/build.make src/lib/SDL_image/CMakeFiles/SDL3_image-shared.dir/build
+	$(MAKE) $(MAKESILENT) -f src/lib/SDL-image/CMakeFiles/SDL3_image-shared.dir/build.make src/lib/SDL-image/CMakeFiles/SDL3_image-shared.dir/build
 .PHONY : SDL3_image-shared/fast
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+maker.o: maker.cpp.o
+.PHONY : maker.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+maker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inventory.dir/build.make CMakeFiles/Inventory.dir/maker.cpp.o
+.PHONY : maker.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+maker.i: maker.cpp.i
+.PHONY : maker.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+maker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inventory.dir/build.make CMakeFiles/Inventory.dir/maker.cpp.i
+.PHONY : maker.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+maker.s: maker.cpp.s
+.PHONY : maker.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+maker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inventory.dir/build.make CMakeFiles/Inventory.dir/maker.cpp.s
+.PHONY : maker.cpp.s
 
 # Help Target
 help:
@@ -214,14 +214,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Inventory"
 	@echo "... SDL3-shared"
 	@echo "... SDL3_image-shared"
 	@echo "... SDL3_test"
 	@echo "... SDL_uclibc"
-	@echo "... main"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... maker.o"
+	@echo "... maker.i"
+	@echo "... maker.s"
 .PHONY : help
 
 
@@ -233,7 +233,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

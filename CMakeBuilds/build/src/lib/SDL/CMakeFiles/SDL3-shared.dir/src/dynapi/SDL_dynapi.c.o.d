@@ -1,6 +1,6 @@
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o: \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/dynapi/SDL_dynapi.c \
-  /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/include-config-/build_config/SDL_build_config.h \
+  /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL/include-config-/build_config/SDL_build_config.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_platform_defines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \

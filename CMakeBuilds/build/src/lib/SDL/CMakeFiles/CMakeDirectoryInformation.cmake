@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/hibiki/Documents/GitHub/Inventory")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/hibiki/Documents/GitHub/Inventory/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

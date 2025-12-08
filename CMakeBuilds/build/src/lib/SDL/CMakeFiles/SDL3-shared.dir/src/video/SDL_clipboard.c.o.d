@@ -1,8 +1,8 @@
 src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.o: \
-  /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c \
-  /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
+  /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c \
+  /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/SDL_internal.h \
-  /Users/hibiki/Documents/GitHub/Inventory/build/src/lib/SDL/include-config-/build_config/SDL_build_config.h \
+  /Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL/include-config-/build_config/SDL_build_config.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_platform_defines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \
@@ -172,7 +172,6 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_stdinc.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
@@ -240,6 +239,7 @@ src/lib/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.o: \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL_main.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/SDL_utils_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/SDL_hashtable.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/SDKSettings.json \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_clipboard.c \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_clipboard_c.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_sysvideo.h \

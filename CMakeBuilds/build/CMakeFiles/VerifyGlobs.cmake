@@ -17,7 +17,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -35,7 +35,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -46,7 +46,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -55,7 +55,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -72,7 +72,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -88,7 +88,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -98,7 +98,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -108,7 +108,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -118,7 +118,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -128,7 +128,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -138,7 +138,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -148,7 +148,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -158,7 +158,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -169,7 +169,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -179,7 +179,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -189,7 +189,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -198,7 +198,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -208,7 +208,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -218,7 +218,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -228,7 +228,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -238,7 +238,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -248,7 +248,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -261,7 +261,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -287,7 +287,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -318,7 +318,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -328,7 +328,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -339,7 +339,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -349,7 +349,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -359,7 +359,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -369,7 +369,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -379,7 +379,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -389,7 +389,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -399,7 +399,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -409,7 +409,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -419,7 +419,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -430,7 +430,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -440,7 +440,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -450,7 +450,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -461,7 +461,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -471,7 +471,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -489,7 +489,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -500,7 +500,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -512,7 +512,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -522,7 +522,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -531,7 +531,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -544,7 +544,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -561,7 +561,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -571,7 +571,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -581,7 +581,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -591,7 +591,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -601,7 +601,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -623,6 +623,7 @@ set(OLD_GLOB
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_stadia.c"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_steam.c"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_steam_hori.c"
+  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_steam_triton.c"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_steamdeck.c"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_switch.c"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/joystick/hidapi/SDL_hidapi_switch2.c"
@@ -635,7 +636,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -645,7 +646,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -655,7 +656,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -665,7 +666,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -674,7 +675,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -684,7 +685,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -694,7 +695,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -704,7 +705,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -715,7 +716,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -725,7 +726,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -735,7 +736,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -744,7 +745,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -755,7 +756,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -766,7 +767,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -776,7 +777,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -786,7 +787,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -796,7 +797,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -806,7 +807,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -816,7 +817,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -825,7 +826,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -837,7 +838,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -850,7 +851,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -878,7 +879,6 @@ set(OLD_GLOB
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/software/SDL_drawline.c"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/software/SDL_drawpoint.c"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/software/SDL_render_sw.c"
-  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/software/SDL_rotate.c"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/software/SDL_triangle.c"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/vitagxm/SDL_render_vita_gxm.c"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.c"
@@ -888,7 +888,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -936,7 +936,6 @@ set(OLD_GLOB
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/software/SDL_drawline.h"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/software/SDL_drawpoint.h"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/software/SDL_render_sw_c.h"
-  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/software/SDL_rotate.h"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/software/SDL_triangle.h"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.h"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/render/vitagxm/SDL_render_vita_gxm_shaders.h"
@@ -950,7 +949,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -964,7 +963,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -974,7 +973,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -984,7 +983,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -995,7 +994,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1005,7 +1004,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1015,7 +1014,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1039,7 +1038,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1052,7 +1051,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1062,7 +1061,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1072,7 +1071,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1082,7 +1081,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1092,7 +1091,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1102,7 +1101,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1112,7 +1111,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1123,7 +1122,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1133,7 +1132,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1143,7 +1142,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1153,7 +1152,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1163,7 +1162,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1173,7 +1172,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1183,7 +1182,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1193,7 +1192,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1203,7 +1202,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1224,6 +1223,7 @@ set(OLD_GLOB
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_fillrect.c"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_pixels.c"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_rect.c"
+  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_rotate.c"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_stb.c"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_stretch.c"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_surface.c"
@@ -1234,7 +1234,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1250,6 +1250,7 @@ set(OLD_GLOB
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_pixels_c.h"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_rect_c.h"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_rect_impl.h"
+  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_rotate.h"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_stb_c.h"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_surface_c.h"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/SDL_sysvideo.h"
@@ -1262,7 +1263,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1285,7 +1286,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1297,7 +1298,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1309,7 +1310,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1324,7 +1325,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1339,7 +1340,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1351,7 +1352,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # both_sources at src/lib/SDL/cmake/sdlcommands.cmake:29 (file)
@@ -1369,5 +1370,5 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/CMakeFiles/cmake.verify_globs")
 endif()

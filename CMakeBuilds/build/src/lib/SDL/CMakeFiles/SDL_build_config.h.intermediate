@@ -199,7 +199,7 @@
 /* #undef HAVE_SEM_TIMEDWAIT */
 /* #undef HAVE_GETAUXVAL */
 /* #undef HAVE_ELF_AUX_INFO */
-#define HAVE_POLL 1
+/* #undef HAVE_PPOLL */
 #define HAVE__EXIT 1
 
 #endif /* HAVE_LIBC */
@@ -218,6 +218,8 @@
 /* #undef HAVE_LIBURING_H */
 /* #undef HAVE_FRIBIDI_H */
 /* #undef SDL_FRIBIDI_DYNAMIC */
+/* #undef HAVE_LIBTHAI_H */
+/* #undef SDL_LIBTHAI_DYNAMIC */
 
 /* #undef HAVE_DDRAW_H */
 /* #undef HAVE_DSOUND_H */
@@ -235,7 +237,7 @@
 /* #undef HAVE_SHELLSCALINGAPI_H */
 
 /* #undef USE_POSIX_SPAWN */
-/* #undef HAVE_POSIX_SPAWN_FILE_ACTIONS_ADDCHDIR */
+#define HAVE_POSIX_SPAWN_FILE_ACTIONS_ADDCHDIR 1
 #define HAVE_POSIX_SPAWN_FILE_ACTIONS_ADDCHDIR_NP 1
 
 /* #undef SDL_DISABLE_DLOPEN_NOTES */
@@ -344,6 +346,7 @@
 #define SDL_SENSOR_DUMMY 1
 /* #undef SDL_SENSOR_VITA */
 /* #undef SDL_SENSOR_N3DS */
+/* #undef SDL_SENSOR_EMSCRIPTEN */
 
 /* #undef SDL_SENSOR_PRIVATE */
 
