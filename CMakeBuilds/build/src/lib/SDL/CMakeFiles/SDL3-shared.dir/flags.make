@@ -3,7 +3,7 @@
 
 # compile C with /usr/bin/cc
 # compile OBJC with /usr/bin/cc
-C_DEFINES = -DDLL_EXPORT -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=4 -DSDL_BUILD_MINOR_VERSION=3 -DUSING_GENERATED_CONFIG_H
+C_DEFINES = -DDLL_EXPORT -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=5 -DSDL_BUILD_MINOR_VERSION=3 -DUSING_GENERATED_CONFIG_H
 
 C_INCLUDES = -I/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL/include-config-/build_config -I/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL/include-revision -I/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include -I/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src
 
@@ -11,7 +11,7 @@ C_FLAGSarm64 =  -arch arm64 -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conv
 
 C_FLAGS =  -arch arm64 -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wdocumentation -Wdocumentation-unknown-command -fcomment-block-commands=threadsafety -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fcolor-diagnostics -idirafter/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src/video/khronos -Wno-error=deprecated-declarations -Wno-deprecated-declarations -D_REENTRANT -fobjc-arc
 
-OBJC_DEFINES = -DDLL_EXPORT -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=4 -DSDL_BUILD_MINOR_VERSION=3 -DUSING_GENERATED_CONFIG_H
+OBJC_DEFINES = -DDLL_EXPORT -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=5 -DSDL_BUILD_MINOR_VERSION=3 -DUSING_GENERATED_CONFIG_H
 
 OBJC_INCLUDES = -I/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL/include-config-/build_config -I/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL/include-revision -I/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include -I/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/src
 

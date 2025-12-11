@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/Users/hibiki/Documents/GitHub/Inventory/.git/HEAD"
+  "/Users/hibiki/Documents/GitHub/Inventory/.git/refs/heads/build"
   "CMakeFiles/4.1.0/CMakeCCompiler.cmake"
   "CMakeFiles/4.1.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.1.0/CMakeOBJCCompiler.cmake"
@@ -22,8 +24,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL-image/cmake/sdlcpu.cmake"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL-image/cmake/sdlmanpages.cmake"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL-image/cmake/sdlplatform.cmake"
-  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/.git/HEAD"
-  "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/.git/refs/heads/main"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/CMakeLists.txt"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/cmake/3rdparty.cmake"
   "/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/cmake/FindLibUSB.cmake"

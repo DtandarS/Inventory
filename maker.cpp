@@ -20,6 +20,7 @@ static SDL_Surface *surface = { nullptr };
 static SDL_Texture *texture = { nullptr };
 static int texture_width = 0;
 static int texture_height = 0;
+Buttons buttons{100.0f, 200.0f, 1000.0f, 100.0f};
 int x = 1;
 
 SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
@@ -87,11 +88,19 @@ SDL_AppResult SDL_AppIterate(void *appstate)
   SDL_RenderClear(renderer);
 
   /* center this one. */
+
+  /*
   dst_rect.x = ((float) (WIDTH - texture_width)) / 2.0f;
   dst_rect.y = ((float) (HEIGHT - texture_height)) / 2.0f;
   dst_rect.w = (float) texture_width;
   dst_rect.h = (float) texture_height;
   SDL_RenderTexture(renderer, texture, NULL, &dst_rect);
+  */
+
+  SDL_RenderPresent(renderer);
+
+  buttons.setColor(250, 255, 255, 255);
+  buttons.create(renderer);
 
   SDL_RenderPresent(renderer);
 

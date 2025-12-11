@@ -1,3 +1,4 @@
+#pragma once
 /*
 
    This is the main header file.
@@ -8,6 +9,7 @@
 
 /* Starting off by referencing to the usual global libraries like stdio and iostream etc. */
 #include <cstdio>
+#include <cstdint>
 #include <iostream>
 #include <ctime>
 #include <cmath>

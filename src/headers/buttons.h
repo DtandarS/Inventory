@@ -1,49 +1,45 @@
+#pragma once
 #ifndef BUTTONS
 #define BUTTONS
 
 
 #endif
 #include <master.h>
+using namespace std;
 
+static SDL_Renderer *localRenderer = {nullptr};
 
 class Buttons
 {
 
   public:
-    Buttons();
-    ~Buttons();
-
-    int getHeight();
-    int getWidth();
-
-    void size(int w, int h);
-    void destroy();
-    void render(float x, float y);
-
-    bool loadTexture(string path);
-    bool isLoaded();
+    Buttons(float x, float y, float w, float h);
+    void setColor(Uint8 r, Uint8 g, Uint8 b, Uint8 a);
+    void create(SDL_Renderer *rendere) const;
 
   private:
 
-    SDL_Texture* mTexture;
-    int width;
-    int height;
+    SDL_FRect rect[16];
+    SDL_Color color{0, 0, 0, SDL_ALPHA_OPAQUE};
 
 };
 
-Buttons::Buttons()
+Buttons::Buttons(float x, float y, float w, float h):
+  rect {x, y, w, h}
+{}
+
+void Buttons::setColor(Uint8 r, Uint8 g, Uint8 b, Uint8 a)
 {
-
-  mTexture {nullptr};
-  width {0};
-  height {0};
-
+  color = SDL_Color{r, g, b, a};
 }
 
-Buttons::~Buttons()
-{
 
-  destroy();
+void Buttons::create(SDL_Renderer *rendere)
+const {
+  SDL_SetRenderDrawColor(rendere, color.r, color.g, color.b, color.a);
+  SDL_RenderFillRect(rendere, &rect[0]);
+  SDL_SetRenderDrawColor(rendere, 0, 0, 0, SDL_ALPHA_OPAQUE);
+  SDL_RenderRect(rendere, &rect[0]);
 
 }
 

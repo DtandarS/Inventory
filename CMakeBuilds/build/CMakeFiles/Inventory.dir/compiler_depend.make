@@ -796,6 +796,7 @@ CMakeFiles/Inventory.dir/maker.cpp.o: /Users/hibiki/Documents/GitHub/Inventory/m
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
+  /Users/hibiki/Documents/GitHub/Inventory/src/headers/buttons.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/headers/master.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL-image/include/SDL3_image/SDL_image.h \
   /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL.h \
@@ -936,9 +937,7 @@ CMakeFiles/Inventory.dir/maker.cpp.o: /Users/hibiki/Documents/GitHub/Inventory/m
 
 /Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL/include/SDL3/SDL.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h:
-
-/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL-image/include/SDL3_image/SDL_image.h:
+/Users/hibiki/Documents/GitHub/Inventory/src/headers/buttons.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h:
 
@@ -1033,6 +1032,10 @@ CMakeFiles/Inventory.dir/maker.cpp.o: /Users/hibiki/Documents/GitHub/Inventory/m
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h:
+
+/Users/hibiki/Documents/GitHub/Inventory/src/lib/SDL-image/include/SDL3_image/SDL_image.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h:
 
