@@ -7,7 +7,7 @@ project(Inventory)
 #====================================#
 
 set(CMAKE_CXX_STANDARD 17)
-set(SOURCE_FILES maker.cpp)
+set(SOURCE_FILES the-inventory/code/maker.cpp)
 
 #====================================#
 
@@ -24,8 +24,8 @@ add_library(SDL INTERFACE)
 
 #====================================#
 
-add_subdirectory(src/lib/SDL EXCLUDE_FROM_ALL)
-add_subdirectory(src/lib/SDL-image EXCLUDE_FROM_ALL)
+add_subdirectory(the-inventory/src/lib/SDL EXCLUDE_FROM_ALL)
+add_subdirectory(the-inventory/src/lib/SDL-image EXCLUDE_FROM_ALL)
 
 #====================================#
 
@@ -35,7 +35,7 @@ target_include_directories(
 
   INTERFACE
 
-  ${CMAKE_CURRENT_SOURCE_DIR}/src/headers
+  ${CMAKE_CURRENT_SOURCE_DIR}/the-inventory/code/headers
 
 )
 
@@ -45,8 +45,8 @@ target_include_directories(
 
   INTERFACE
 
-  ${CMAKE_CURRENT_SOURCE_DIR}/src/lib/SDL/include/SDL3
-  ${CMAKE_CURRENT_SOURCE_DIR}/src/lib/SDL-image/include/SDL3-image
+  ${CMAKE_CURRENT_SOURCE_DIR}/the-inventory/src/lib/SDL/include/SDL3
+  ${CMAKE_CURRENT_SOURCE_DIR}/the-inventory/src/lib/SDL-image/include/SDL3-image
 
 )
 

@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/hibiki/Documents/GitHub/Inventory/build/cmake_install.cmake",
+		"/Users/hibiki/Documents/GitHub/Inventory/build/the-inventory/src/lib/SDL/cmake_install.cmake",
+		"/Users/hibiki/Documents/GitHub/Inventory/build/the-inventory/src/lib/SDL-image/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

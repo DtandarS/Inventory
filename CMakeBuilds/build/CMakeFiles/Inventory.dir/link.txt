@@ -1,1 +1,0 @@
-/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Inventory.dir/maker.cpp.o -o Inventory  -Wl,-rpath,/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL-image -Wl,-rpath,/Users/hibiki/Documents/GitHub/Inventory/CMakeBuilds/build/src/lib/SDL src/lib/SDL-image/libSDL3_image.0.3.0.dylib src/lib/SDL/libSDL3.0.dylib
