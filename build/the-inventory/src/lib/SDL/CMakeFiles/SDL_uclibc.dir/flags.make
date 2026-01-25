@@ -6,7 +6,7 @@ C_DEFINES = -DUSING_GENERATED_CONFIG_H
 
 C_INCLUDES = -I/Users/hibiki/Documents/GitHub/Inventory/build/the-inventory/src/lib/SDL/include-config-/build_config -I/Users/hibiki/Documents/GitHub/Inventory/the-inventory/src/lib/SDL/src -I/Users/hibiki/Documents/GitHub/Inventory/the-inventory/src/lib/SDL/include
 
-C_FLAGSarm64 =  -arch arm64 -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wdocumentation -Wdocumentation-unknown-command -fcomment-block-commands=threadsafety -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fcolor-diagnostics
+C_FLAGSarm64 =  -arch arm64 -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wdocumentation -Wdocumentation-unknown-command -fcomment-block-commands=threadsafety -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fcolor-diagnostics
 
-C_FLAGS =  -arch arm64 -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wdocumentation -Wdocumentation-unknown-command -fcomment-block-commands=threadsafety -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fcolor-diagnostics
+C_FLAGS =  -arch arm64 -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wdocumentation -Wdocumentation-unknown-command -fcomment-block-commands=threadsafety -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fcolor-diagnostics
 

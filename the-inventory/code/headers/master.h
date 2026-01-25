@@ -8,7 +8,7 @@
 */
 
 /* Starting off by referencing to the usual global libraries like stdio and iostream etc. */
-#include <cstring>
+#include <string>
 #include <cstdio>
 #include <cstdint>
 #include <iostream>
@@ -26,6 +26,6 @@
 #include <SDL3_image/SDL_image.h>
 
 /* Then I reference my own personal made ones. */ 
-#include <buttons.h> 
+#include <storage.h> 
 
 

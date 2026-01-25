@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "the-inventory/src/lib/SDL-image",
+		"source" : "the-inventory/src/lib/SDL-image"
+	}
+}

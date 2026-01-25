@@ -4,6 +4,10 @@
 #include <master.h>
 using namespace std;
 
+static void msg(char *msg)
+{
+  fprintf(stderr, "[%d] %s\n,", errno, msg);
+}
 
 struct Storage
 {

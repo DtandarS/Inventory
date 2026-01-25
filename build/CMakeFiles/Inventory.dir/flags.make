@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/hibiki/Documents/GitHub/Inventory/the-inventory/src/lib/SDL/include/SDL3 -I/Users/hibiki/Documents/GitHub/Inventory/the-inventory/src/lib/SDL-image/include/SDL3-image -I/Users/hibiki/Documents/GitHub/Inventory/the-inventory/code/headers -I/Users/hibiki/Documents/GitHub/Inventory/build/the-inventory/src/lib/SDL/include-revision -I/Users/hibiki/Documents/GitHub/Inventory/the-inventory/src/lib/SDL/include -I/Users/hibiki/Documents/GitHub/Inventory/the-inventory/src/lib/SDL-image/include
 
-CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
+CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -fPIE
 
-CXX_FLAGS = -std=gnu++17 -arch arm64
+CXX_FLAGS = -std=gnu++17 -arch arm64 -fPIE
 
