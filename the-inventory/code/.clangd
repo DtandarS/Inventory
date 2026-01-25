@@ -1,3 +1,4 @@
+# This one is essential if I want to code without having to look at the errors all day long
 CompileFlags:
-  Add: [-include, lib/master.h]
+  Add: [-std=c++20 -Iinclude, -I /headers/master.h]
 

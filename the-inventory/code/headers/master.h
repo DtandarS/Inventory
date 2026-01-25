@@ -8,6 +8,7 @@
 */
 
 /* Starting off by referencing to the usual global libraries like stdio and iostream etc. */
+#include <cstring>
 #include <cstdio>
 #include <cstdint>
 #include <iostream>
